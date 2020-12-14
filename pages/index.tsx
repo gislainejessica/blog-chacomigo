@@ -4,7 +4,6 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 import Nav from '../components/Header'
-// import image from '../images/feminismo.jpg'
 
 export default function Home() {
   return (

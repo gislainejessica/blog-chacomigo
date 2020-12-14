@@ -1,10 +1,13 @@
 import React from 'react';
+import Link from 'next/link'
 import { Container, Logo, SocialMedia, Links } from './styles';
 
 const Header: React.FC = () => {
   return (
     <Container>
-      <Logo>ChaComigo Blog</Logo>
+      <Link href="/article">
+        <Logo>ChaComigo Blog</Logo>
+      </Link>
 
       <Links>
         <SocialMedia>
