@@ -1,21 +1,23 @@
 import React from 'react'
-import { Container, Text } from './styles'
+import { Container, Text, Title, Press, Input } from './styles'
 
 const Newsletter: React.FC = () => {
   return (
     <Container >
-      <Text>
+      <Title>
         NewsLetter
-      </Text>
+      </Title>
       <Text>
         Se você quiser receber
         as atualizações
         cadastre seu email aqui
       </Text>
-      <input />
-      <button>
-        Quero receber
-      </button>
+      <Input />
+      <Press>
+        <p>
+          Quero receber
+        </p>
+      </Press>
     </Container>
   );
 };

@@ -5,10 +5,12 @@ import Footer from '../components/Footer'
 
 import styles from '../styles/Article.module.css'
 
-import { Container } from '../styles/pages/Home'
+import { Container, Tag } from '../styles/pages/Home'
 import Categories from '../components/Categories'
 import Newsletter from '../components/Newsletter'
 import Card from '../components/Card'
+import About from '../components/About'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -23,30 +25,25 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.sidebar}>
           <Categories />
-
-          <h1> About us </h1>
-          <h2>
-            A ChaComigo nasceu
-            de uma ideia na Faculdade
-            de modo a contribuir
-            na redução no numero
-            de vitimas de violência
-            de genero
-          </h2>
+          <About />
           <Newsletter />
-
         </div>
 
         <div className={styles.content}>
-          {/* <button> Femenismo </button> */}
+          <Tag> Feminismo </Tag>
+          <div />
+          <Link href="article">
+            <Card />
+          </Link>
+
           <Card />
           <Card />
           <Card />
           <Card />
-          <Card />
-          <Card />
+
         </div>
       </main>
+
 
       <Footer />
     </div>

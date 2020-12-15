@@ -1,14 +1,34 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  /* width: 95%; */
   height: 'auto';
-  background:#fff;
-  /* margin: 1rem ; */
-  padding: .8rem;
+  background:#E2E7E9;
+  margin: 1rem ;
+`;
+
+
+export const Content = styled.div`
+  padding: 1.6rem;
+`;
+
+export const Header = styled.div`
+  width: 'auto';
+  height: 4rem;
+  background:#D0D9DC;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 `;
 
 export const Text = styled.p`
   font-size: 1.2rem;
   font-weight: normal;
+`;
+
+export const TextColor = styled.p`
+  font-size: 1.2rem;
+  font-weight: normal;
+  color: #739CDA;
 `;

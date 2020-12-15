@@ -11,6 +11,7 @@ export const Container = styled.div`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
 `;
 
 export const Logo = styled.h1`
