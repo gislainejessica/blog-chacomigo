@@ -1,17 +1,27 @@
 import React from 'react'
-import { Container, Text, Tag, Image } from './styles'
+import { Container, Text, Title, Image, Tags } from './styles'
+
+import MyTag from '../../components/Tag'
 
 const Card: React.FC = () => {
   return (
     <Container >
       <Image />
       <div>
-        <Tag>
-          Feminismo
-        </Tag>
-        <Text>
+        <Tags>
+          <MyTag color="#ff7474" size={1}>
+            Violência
+          </MyTag>
+          <MyTag color="#90aa22" size={1}>
+            Feminismo
+          </MyTag>
+          <MyTag color="#3d3d3d" size={1}>
+            Machismo
+          </MyTag>
+        </Tags>
+        <Title>
           Titulo do card
-        </Text>
+        </Title>
         <Text>
           Conteudo inicial mostrada para
           chamar atenção para a pessoa

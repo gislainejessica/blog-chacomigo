@@ -16,7 +16,7 @@ export default function Article() {
       <Menu />
 
       <main className={styles.main}>
-        <h1> Artigos aqui</h1>
+        {/* <h1> Artigos aqui</h1> */}
       </main>
 
       <Footer />

@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  /* width: 95%; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,6 +9,7 @@ export const Container = styled.div`
   margin: 1rem ;
   padding: .8rem;
 `;
+
 export const Title = styled.h1`
   font-size: 1.6rem;
   font-weight: Bold;
@@ -27,8 +27,11 @@ export const Text = styled.p`
 export const Press = styled.button`
   font-size: 1.2rem;
   font-weight: normal;
+
   color: #3C96CA;
   background:#fff;
+  background: linear-gradient(90deg, #ffff,  #f3f2ef);
+
   text-align: center;
   border: none;
   border-radius: .8rem;
@@ -39,7 +42,6 @@ export const Press = styled.button`
 
 
 export const Input = styled.input`
-
   background: #384953;
   border: 2px solid #3C96CA;
   border-radius: .8rem;

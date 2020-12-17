@@ -3,20 +3,33 @@ import styled from 'styled-components';
 export const Container = styled.div`
   width: 100%;
   height: 4rem;
-  /* background: #84BBE3; */
-   background: #F0722B;
-   background: linear-gradient(45deg, #F0722B,  #FFA842);
-  padding: 0 5rem;
+
+  background: linear-gradient(90deg, #F0722B, 50%,  #FFA842);
+  /* padding: 0 5rem; */
   display: flex;
+  flex: 1;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   position: fixed;
 `;
 
+export const MaxWidth = styled.div`
+  max-width: 1280px;
+  height: 4rem;
+
+  /* padding: 0 5rem; */
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+`;
+
+
 export const Logo = styled.h1`
   color: #fff;
-`
+`;
 
 export const Links = styled.div`
   display: flex;

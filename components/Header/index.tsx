@@ -1,28 +1,30 @@
 import React from 'react';
 import Link from 'next/link'
-import { Container, Logo, SocialMedia, Links } from './styles';
+import { Container, MaxWidth, Logo, SocialMedia, Links } from './styles';
 
 const Header: React.FC = () => {
   return (
     <Container>
-      <Link href="/article">
-        <Logo>ChaComigo Blog</Logo>
-      </Link>
+      <MaxWidth>
+        <Link href="/article">
+          <Logo>ChaComigo Blog</Logo>
+        </Link>
 
-      <Links>
-        <SocialMedia>
-          Youtube
+        <Links>
+          <SocialMedia>
+            Youtube
         </SocialMedia>
-        <SocialMedia>
-          Facebook
+          <SocialMedia>
+            Facebook
         </SocialMedia>
-        <SocialMedia>
-          Twitter
+          <SocialMedia>
+            Twitter
         </SocialMedia>
-        <SocialMedia>
-          Instagram
+          <SocialMedia>
+            Instagram
         </SocialMedia>
-      </Links>
+        </Links>
+      </MaxWidth>
     </Container>
   );
 };
