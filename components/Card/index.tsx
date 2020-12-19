@@ -1,36 +1,45 @@
+import Image from 'next/image'
 import React from 'react'
-import { Container, Text, Title, Image, Tags } from './styles'
+import { Container, Text, Title, DivImage, Tags, Wrapper } from './styles'
 
 import MyTag from '../../components/Tag'
 
 const Card: React.FC = () => {
   return (
     <Container >
-      <Image />
-      <div>
+      <DivImage>
+        {/* <Image
+          className={"styles.image"}
+          alt="Picture of the blog"
+          width={250}
+          height={200}
+          src='/animal.jpg'
+        // border='2px solid gray'
+        /> */}
+      </DivImage>
+      <Wrapper>
         <Tags>
           <MyTag color="#ff7474" size={1}>
-            Violência
+            #Violência
           </MyTag>
           <MyTag color="#90aa22" size={1}>
-            Feminismo
+            #Feminismo
           </MyTag>
           <MyTag color="#3d3d3d" size={1}>
-            Machismo
+            #Machismo
           </MyTag>
         </Tags>
         <Title>
-          Titulo do card
+          Existe vida após a violência
         </Title>
         <Text>
           Conteudo inicial mostrada para
           chamar atenção para a pessoa
-          clicar para continuar lendo
         </Text>
         <Text>
           Continuar Lendo ==x
         </Text>
-      </div>
+      </Wrapper>
     </Container>
   );
 };

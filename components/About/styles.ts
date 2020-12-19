@@ -24,7 +24,9 @@ export const Container = styled.div`
   flex-direction: column;
   height: 'auto';
   background:#E2E7E9;
-  margin: 1rem ; 
+  /* margin: 1rem ;  */
+  margin-bottom: 4rem;
+
 `;
 
 export const Content = styled.div`

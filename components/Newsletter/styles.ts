@@ -6,8 +6,9 @@ export const Container = styled.div`
   align-items: center;
   height: 'auto';
   background:#354148;
-  margin: 1rem ;
+  /* margin: 1rem ; */
   padding: .8rem;
+  margin-bottom: 4rem;
 `;
 
 export const Title = styled.h1`

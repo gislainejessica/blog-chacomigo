@@ -9,31 +9,31 @@ const Categories: React.FC = () => {
       </Header>
       <Content>
         <TextColor>
-          Feminismo
+          #Feminismo
         </TextColor>
         <Text>
-          Desconstrução
+          #Desconstrução
         </Text>
         <Text>
-          Violência
+          #Violência
         </Text>
         <Text>
-          Machismo
+          #Machismo
         </Text>
         <Text>
-          Revolução
+          #Revolução
         </Text>
         <Text>
-          Leis e Políticas Públicas
+          #Leis e Políticas Públicas
         </Text>
         <Text>
-          Psicologia
+          #Psicologia
         </Text>
         <Text>
-          Mullher
+          #Mullher
         </Text>
         <Text>
-          Auto-Estima
+          #Auto-Estima
         </Text>
       </Content>
     </Container>

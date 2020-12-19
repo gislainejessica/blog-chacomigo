@@ -29,7 +29,7 @@
   background:#f6f8fa;
   display: flex;
   flex-direction: column;
-  padding: 0 1.6rem;
+  /* padding: 0 1.6rem; */
 }
 
 .footer {

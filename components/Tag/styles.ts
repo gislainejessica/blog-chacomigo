@@ -7,20 +7,17 @@ interface PropsTag {
 export const Container = styled.div<PropsTag>`
   border-radius: .8rem;
   background: ${props => props.color};
-  
-  margin-left: .8rem;
-  margin-top: .8rem;
-  padding-left: .8rem;
-  padding-right: .8rem;
+  margin: .8rem;
+  margin-left: .4rem;
+  margin-right: .4rem;
+  padding: .4rem;
+  padding: .4rem .8rem;
 
-  width: 'auto';
-  /* height: 20; */
+  min-width: 2.4rem;
 
   h1 { 
-    font-size: .8rem;
-    font-weight: bold;
+    font-size: .7rem;
     text-align: center;
     color: #ffff;
-    /* padding: .4rem 1rem; */
   }
 `;
