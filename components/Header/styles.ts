@@ -1,11 +1,12 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
+  background: linear-gradient(90deg, #F0722B, 50%,  #FFA842);
+  font-family: 'Courier New', Courier, monospace;
+  
   width: 100%;
   height: 4rem;
 
-  background: linear-gradient(90deg, #F0722B, 50%,  #FFA842);
-  /* padding: 0 5rem; */
   display: flex;
   flex: 1;
   flex-direction: row;
@@ -17,8 +18,7 @@ export const Container = styled.div`
 export const MaxWidth = styled.div`
   max-width: 1280px;
   height: 4rem;
-
-  /* padding: 0 5rem; */
+  padding: 0rem 2rem 0rem 2rem;
   display: flex;
   flex: 1;
   flex-direction: row;

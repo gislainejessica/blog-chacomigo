@@ -32,8 +32,8 @@ export default function Home() {
 
             <Content>
               <CardGruop>
-                {/* <Tag> #Feminismo </Tag>
-                <div /> */}
+                <Tag> #Feminismo </Tag>
+                {/* <div /> */}
               </CardGruop>
 
               <CardGruop>

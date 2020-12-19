@@ -7,22 +7,23 @@ export const Container = styled.div`
   height: 'auto';
   background:#354148;
   /* margin: 1rem ; */
-  padding: .8rem;
+  padding: 1.6rem;
   margin-bottom: 4rem;
 `;
 
 export const Title = styled.h1`
-  font-size: 1.6rem;
+  font-size: 2rem;
   font-weight: Bold;
   color: #fff;
-  text-align: center;
+  text-align: left;
+  margin-bottom: .8rem;
 `;
 
 export const Text = styled.p`
   font-size: 1.2rem;
   font-weight: normal;
   color: #fff;
-  text-align: center;
+  text-align: left;
 `;
 
 export const Press = styled.button`
@@ -37,8 +38,10 @@ export const Press = styled.button`
   border: none;
   border-radius: .8rem;
 
-  width: 80%;
+  width: 100%;
   margin: 1rem ;
+  padding: .8rem;
+
 `;
 
 
@@ -47,6 +50,6 @@ export const Input = styled.input`
   border: 2px solid #3C96CA;
   border-radius: .8rem;
   height: 2.5rem;
-  width: 80%;
+  width: 100%;
   margin: 1rem ;
 `;

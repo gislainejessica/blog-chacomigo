@@ -16,6 +16,7 @@ export const Container = styled.div<PropsTag>`
   min-width: 2.4rem;
 
   h1 { 
+    font-family: 'Courier New', Courier, monospace;
     font-size: .7rem;
     text-align: center;
     color: #ffff;

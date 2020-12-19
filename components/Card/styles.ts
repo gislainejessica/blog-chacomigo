@@ -1,11 +1,9 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  width: 50%;
-  /* height: 'auto'; */
-  height: 200px;
+  /* width: 70%; */
+  height: 220px;
   background:#fff;
-  margin: 0 .0rem;
   display: flex;
   border: 1px solid rgba(255, 168, 66, .5);
 
@@ -13,15 +11,14 @@ export const Container = styled.div`
     box-shadow: 1px 4px 10px 1px rgba(255, 168, 66, .5);
     border: none;
   }
-  margin-right: 1.2rem;
-  margin-left: 2.4rem;
-
+  margin-right: 1rem;
+  margin-left: 4.4rem;
 `;
 
 export const Wrapper = styled.div`
   /* height: 'auto'; */
   background:#fff;
-
+  width: 15rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -45,6 +42,8 @@ export const Title = styled.h1`
   font-weight: bold;
   text-align: center;
   margin-bottom: .8rem;
+  font-family: 'Courier New', Courier, monospace;
+
 `;
 
 export const Image = styled.div`

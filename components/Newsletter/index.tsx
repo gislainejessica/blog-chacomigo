@@ -5,11 +5,12 @@ const Newsletter: React.FC = () => {
   return (
     <Container >
       <Title>
-        NewsLetter
+        Novidades
       </Title>
       <Text>
-        Se você quiser receber
-        as atualizações
+        Quer saber mais sobre
+        o assunto e receber
+        as atualizações em primeira mão
         cadastre seu email aqui
       </Text>
       <Input />

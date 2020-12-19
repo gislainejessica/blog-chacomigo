@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react'
 import { Container, Title, Picture, Text, Header, Content } from './styles'
 
@@ -5,17 +6,22 @@ const About: React.FC = () => {
   return (
     <Container >
       <Header />
-      <Picture />
+      <Picture
+        className={"styles.image"}
+        alt="Picture of the blog"
+        width={120}
+        height={120}
+        src='/logo-cha.jpeg'
+      />
+
       <Content>
         <Title>
           Sobre Nós
       </Title>
         <Text>
           A chaComigo nasceu
-          de uma ideia na Faculdade
-          de modo a contribuir
-          na redução no numero
-          de vitimas de violência
+          do desejo de
+          concientizar as pessoas sobre violência
           de genero
       </Text>
       </Content>

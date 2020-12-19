@@ -22,9 +22,9 @@ const Card: React.FC = () => {
           <MyTag color="#ff7474" size={1}>
             #Violência
           </MyTag>
-          <MyTag color="#90aa22" size={1}>
+          {/* <MyTag color="#90aa22" size={1}>
             #Feminismo
-          </MyTag>
+          </MyTag> */}
           <MyTag color="#3d3d3d" size={1}>
             #Machismo
           </MyTag>

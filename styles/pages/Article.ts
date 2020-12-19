@@ -54,22 +54,3 @@ export const Main = styled.main`
   grid-template-columns: 1fr 5fr;
   font-family: 'Courier New', Courier, monospace;
 `;
-
-export const Content = styled.div`
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  font-family: 'Courier New', Courier, monospace;
-`;
-
-export const Sidebar = styled.div`
-  display: flex;
-  flex-direction: column;
-  font-family: 'Courier New', Courier, monospace;
-  max-width: 22rem;
-  
-  @media(max-width: 1280px) {
-    diplay: none;
-  }
- 
-`;
