@@ -9,7 +9,7 @@ export const Container = styled.div`
   justify-content: center;
   align-self: center;
 
-  background: #f5f5f5;
+  background: #f6f8fa;
 `;
 
 export const Tag = styled.button`
