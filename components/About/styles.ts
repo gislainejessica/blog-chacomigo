@@ -2,12 +2,9 @@ import styled from 'styled-components';
 import Image from 'next/image';
 
 export const Header = styled.div`
-  /* width: 'auto'; */
   width: 100%;
   height: 7.7rem;
-  /* background: linear-gradient(45deg,  #626E73, 60%, #F0722B); */
   background: linear-gradient(-45deg,  #c9c9c9, 60%, #f5a578);
-  /* position: 'absolute'; */
 `;
 
 export const Picture = styled(Image)`
@@ -21,8 +18,8 @@ export const Picture = styled(Image)`
   align-items: center;
   align-self: center;
   margin: -60px auto 2px;
+  position: relative;
 `;
-
 
 export const Container = styled.div`
   display: flex;

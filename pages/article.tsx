@@ -5,7 +5,7 @@ import Footer from '../components/Footer'
 
 import styles from '../styles/Article.module.css'
 
-export default function Article() {
+export default function Articles() {
   return (
     <div className={styles.container}>
       <Head>
@@ -16,7 +16,12 @@ export default function Article() {
       <Menu />
 
       <main className={styles.main}>
-        {/* <h1> Artigos aqui</h1> */}
+        <h1> Artigos aqui</h1>
+        <h1> Artigos aqui</h1>
+        <h1> Artigos aqui</h1>
+        <h1> Artigos aqui</h1>
+        <h1> Artigos aqui</h1>
+        <h1> Artigos aqui</h1>
       </main>
 
       <Footer />
