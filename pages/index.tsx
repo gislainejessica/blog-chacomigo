@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Link from 'next/link'
+// import Link from 'next/link'
 
 import Menu from '../components/Header'
 import Footer from '../components/Footer'
@@ -11,14 +11,12 @@ import Card from '../components/Card'
 
 import { Container, Tag, MaxWidth, Main, Content, Sidebar, CardGruop } from '../styles/pages/Home'
 
-
 export default function Home() {
   return (
     <>
       <Head>
         <title>Chá Comigo</title>
         <link rel="icon" href="/favicon.ico" />
-
       </Head>
 
       <Menu />
@@ -42,24 +40,27 @@ export default function Home() {
                 <Card />
                 <Card />
               </CardGruop>
+
               <CardGruop>
                 <Card />
                 <Card />
               </CardGruop>
-              <CardGruop>
-                <Card />
-                <Card />
-              </CardGruop>
+              {/*
               <CardGruop>
                 <Card />
                 <Card />
               </CardGruop>
 
+              <CardGruop>
+                <Card />
+                <Card />
+              </CardGruop> */}
 
             </Content>
           </Main>
         </MaxWidth>
       </Container>
+
       <Footer />
     </>
   )

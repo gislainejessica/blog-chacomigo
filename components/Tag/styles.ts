@@ -10,7 +10,6 @@ export const Container = styled.div<PropsTag>`
   margin: .8rem;
   margin-left: .4rem;
   margin-right: .4rem;
-  padding: .4rem;
   padding: .4rem .8rem;
 
   min-width: 2.4rem;

@@ -21,10 +21,10 @@ export const Container = styled.div`
 
 export const MaxWidth = styled.div`
   max-width: 1280px;
-
-  padding: 8rem 2rem 4rem 2rem;
+  width: 60%;
+  padding: 4rem 2rem 4rem 2rem;
   display: flex;
-  flex: 1;
+  /* flex: 1; */
   align-items: flex-start;
 `;
 
@@ -35,22 +35,30 @@ export const Main = styled.main`
   justify-content: center;
   align-items: flex-start;
 
-  margin: 4rem 1rem;
+  /* margin: 4rem 1rem; */
   padding: 4rem 4rem;
-
-  background: #f5f5f5;
+  /* background: #ffffff; */
+  /* background: #f5f5f5; */
   width: 50%;
-
-  border: 1px solid #eaeaea;
-  box-shadow: 0px 2px 4px rgba(29, 6, 9, 0.4);
+  
+  /* border: 1px solid #eaeaea; */
+  /* box-shadow: 0px 2px 4px rgba(29, 6, 9, 0.4); */
   border-radius: .6rem;
   font-family: 'Courier New', Courier, monospace;
 `;
 
 export const Text = styled.p`
   color: #354148;
-  line-height: 1.6rem;
+  line-height: 1.8rem;
   font-size: 1.2rem;
+`;
+
+
+export const Author = styled.h3`
+  color: #b7aeae;
+  line-height: 1.8rem;
+  font-size: 1.0rem;
+  /* margin-bottom: .6rem; */
 `;
 
 export const Content = styled.div`
@@ -71,8 +79,11 @@ export const Imagem = styled(Image) <PropsImagem>`
   border-radius: .8rem;
 `;
 
-export const ImageText = styled.h2`
-  color: #fff;
+export const TimeText = styled.h2`
+  color: #b7aeae;
+  line-height: 1.8rem;
+  font-size: 1.0rem;
+  margin-bottom: 1.6rem;
 `;
 
 export const Tags = styled.div` 
@@ -85,9 +96,9 @@ export const Tags = styled.div`
 export const Tag = styled.div`
   background: #484848;
   border-radius: 5rem;
-  padding: 0rem 1.6rem;
+  padding: 0.4rem 1.6rem;
   margin-right: .8rem;
-  border: 2px solid #84BBE3;
+  border: 1px solid #84BBE3;
 `;
 
 export const TagText = styled.p` 
@@ -99,6 +110,6 @@ export const TagText = styled.p`
 
 export const Title = styled.h1`
   color: #354148;
-  padding: .8rem 0;
+  padding: .6rem 0;
   text-align: center;
 `;

@@ -6,7 +6,6 @@ export const Container = styled.div`
   align-items: center;
   height: 'auto';
   background:#354148;
-  /* margin: 1rem ; */
   padding: 1.6rem;
   margin-bottom: 4rem;
 `;

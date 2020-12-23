@@ -1,11 +1,9 @@
 import Head from 'next/head'
 
-// import styles from '../styles/Home.module.css'
-
 import Nav from '../components/Header'
 import Footer from '../components/Footer'
 
-import { Container, MaxWidth, Main, Title, Text, Content, Tags, Tag, Imagem, TagText, ImageText } from '../styles/pages/Principal'
+import { Container, MaxWidth, Main, Title, Text, Content, Tags, Tag, Imagem, TagText, TimeText, Author } from '../styles/pages/Principal'
 
 export default function Article() {
   return (
@@ -20,6 +18,7 @@ export default function Article() {
       <Container>
         <MaxWidth>
           <Main>
+
             <Tags>
               <Tag>
                 <TagText> Feminismo </TagText>
@@ -35,36 +34,48 @@ export default function Article() {
                 unsized
                 src='/feminismo.jpg'
               />
-
             </Content>
 
             <Title>Feminismo - O que significa? </Title>
 
-            <h4> por Gislaine Jéssica há 3 dias </h4>
-            <div>
-              <h4> 2min de leitura </h4>
-            </div>
+            <Author> por Gislaine Jéssica há 3 dias </Author>
+
+            <TimeText> 2min de leitura </TimeText>
 
             <Text>
-              A figura do gestor de marketing e vendas é bastante conhecida e presente nas empresas, mas o que muita gente não sabe é o que faz um gestor de marketing e vendas. Muitas vezes, nem mesmo a diretoria entende direito qual é a função deste profissional, o que acaba gerando obstáculos na hora de contratar alguém para administrar essas duas equipes.
-
-              E isso pode se tornar um grande problema, já que a gestão de marketing e vendas é uma das funções mais estratégicas em um negócio. Por isso, é também uma posição que exige muita confiança, já que o profissional é um dos pilares do sucesso da empresa.
-
-              Acompanhe!
+              Na Revolução Francesa (1789) a “Declaração dos Direitos do Homem e do Cidadão”, escrito no ano da Revolução,
+              foi combatida pela “Declaração dos Direitos da Mulher e da Cidadã”, escrito pela feminista
+              francesa Olympe de Gouges (1748-1793) em 1791.
             </Text>
+            <br />
             <Text>
-              A figura do gestor de marketing e vendas é bastante conhecida e presente nas empresas, mas o que muita gente não sabe é o que faz um gestor de marketing e vendas. Muitas vezes, nem mesmo a diretoria entende direito qual é a função deste profissional, o que acaba gerando obstáculos na hora de contratar alguém para administrar essas duas equipes.
-
-              E isso pode se tornar um grande problema, já que a gestão de marketing e vendas é uma das funções mais estratégicas em um negócio. Por isso, é também uma posição que exige muita confiança, já que o profissional é um dos pilares do sucesso da empresa.
-
-              Acompanhe!
+              No documento, ela criticava a Declaração da Revolução, pois era somente aplicada aos homens. Além disso,
+              alertava para a autoridade masculina e a importância das mulheres e da igualdade de direitos.
             </Text>
+            <br />
             <Text>
-              A figura do gestor de marketing e vendas é bastante conhecida e presente nas empresas, mas o que muita gente não sabe é o que faz um gestor de marketing e vendas. Muitas vezes, nem mesmo a diretoria entende direito qual é a função deste profissional, o que acaba gerando obstáculos na hora de contratar alguém para administrar essas duas equipes.
-
-              E isso pode se tornar um grande problema, já que a gestão de marketing e vendas é uma das funções mais estratégicas em um negócio. Por isso, é também uma posição que exige muita confiança, já que o profissional é um dos pilares do sucesso da empresa.
-
-              Acompanhe!
+              Por esse motivo, a revolucionária foi executada em Paris, dia 3 de novembro de 1793.
+              No entanto, sua morte, considerada um marco do feminismo no mundo, fez surgir diversos movimentos feministas posteriores.
+            </Text>
+            <br />
+            <Text>
+              Entretanto, foi a partir da Revolução Industrial no século XIX, que esse panorama muda de maneira substancial.
+              As mulheres já começam a trabalhar nas fábricas, fazendo parte da força econômica do país.
+            </Text>
+            <br />
+            <Text>
+              Assim, aos poucos, os movimentos feministas espalhados pelo mundo foram tomando corpo e cada vez mais lutando
+              e conquistando diversos direitos reivindicados pelas mulheres (direito à educação, voto, contrato, propriedade,
+              divórcio, igualdade de salários, aborto, etc.).
+            </Text>
+            <br />
+            <Text>
+              Nas culturas ocidentais, o movimento feminista passou a adquirir maior visibilidade a partir do século XX.
+            </Text>
+            <br />
+            <Text>
+              Em épocas mais distantes seria impensável ter uma presidente mulher governando o país, ou mesmo,
+              figuras femininas atuando e se consagrando em diversos campos: culturas, artes, economia, política, etc.
             </Text>
 
           </Main>

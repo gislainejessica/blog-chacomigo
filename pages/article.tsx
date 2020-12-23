@@ -3,11 +3,11 @@ import Head from 'next/head'
 import Menu from '../components/Header'
 import Footer from '../components/Footer'
 
-import styles from '../styles/Article.module.css'
+import { Container, MaxWidth } from '../styles/pages/Article'
 
 export default function Articles() {
   return (
-    <div className={styles.container}>
+    <>
       <Head>
         <title>Artigos</title>
         <link rel="icon" href="/favicon.ico" />
@@ -15,16 +15,18 @@ export default function Articles() {
 
       <Menu />
 
-      <main className={styles.main}>
-        <h1> Artigos aqui</h1>
-        <h1> Artigos aqui</h1>
-        <h1> Artigos aqui</h1>
-        <h1> Artigos aqui</h1>
-        <h1> Artigos aqui</h1>
-        <h1> Artigos aqui</h1>
-      </main>
+      <Container>
+        <MaxWidth>
+          <h1> Artigos aqui</h1>
+          <h1> Artigos aqui</h1>
+          <h1> Artigos aqui</h1>
+          <h1> Artigos aqui</h1>
+          <h1> Artigos aqui</h1>
+
+        </MaxWidth>
+      </Container>
 
       <Footer />
-    </div>
+    </>
   )
 }

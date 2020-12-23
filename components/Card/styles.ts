@@ -2,9 +2,11 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   /* width: 70%; */
-  height: 220px;
+  min-height: 220px;
   background:#fff;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
   border: 1px solid rgba(255, 168, 66, .5);
 
   :hover {
@@ -13,52 +15,59 @@ export const Container = styled.div`
   }
   margin-right: 1rem;
   margin-left: 4.4rem;
+
+  @media(max-width: 1280px) {
+    margin-bottom: 1.6rem;
+    margin-top: 1.6rem;
+    width: 80%;
+  }
+
+  @media(max-width: 580px) {
+   display: flex;
+  }
 `;
 
 export const Wrapper = styled.div`
-  /* height: 'auto'; */
   background:#fff;
-  width: 15rem;
+  /* width: 15rem; */
+
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  flex: 1;
-  /* border: 1px solid #f5f5f5f5; */
 `;
 
 export const Text = styled.p`
+  font-family: 'Courier New', Courier, monospace;
   font-size: 1rem;
   font-weight: normal;
   text-align: left;
+
   margin-left: .8rem;
   margin-right: .8rem;
-  font-family: 'Courier New', Courier, monospace;
-  /* max-width: 40rem; */
 `;
 
 export const Title = styled.h1`
   font-size: 1.2rem;
   font-weight: bold;
   text-align: center;
+
   margin-bottom: .8rem;
   font-family: 'Courier New', Courier, monospace;
-
-`;
-
-export const Image = styled.div`
-  width: 100px;
-  height: 100px;
-  background:#ddd;
 `;
 
 export const Tags = styled.div`
   display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 
 export const DivImage = styled.div`
-  /* background-image: url('/animal.jpg'); */
   background-image: url(https://cdn.pixabay.com/photo/2016/11/29/05/45/astronomy-1867616_960_720.jpg);
-  width: 10rem  ;
+  width: 100%;
   height: 'auto';
-`
+
+  @media(max-width: 580px) {
+    display: none;
+  }
+`;
