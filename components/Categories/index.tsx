@@ -24,7 +24,7 @@ const Categories: React.FC = () => {
           #Revolução
         </Text>
         <Text>
-          #Leis e Políticas Públicas
+          #Políticas Públicas
         </Text>
         <Text>
           #Psicologia

@@ -3,21 +3,22 @@ import Image from 'next/image';
 
 export const Header = styled.div`
   width: 100%;
-  height: 7.7rem;
-  background: linear-gradient(-45deg,  #c9c9c9, 60%, #f5a578);
+  height: 5.7rem;
+  background: linear-gradient(-180deg,  #fff, 60%, #f5a578);
 `;
 
 export const Picture = styled(Image)`
-  width: 120px;
-  height: 120px;
-  background:#C4C4C4; 
+  width: 100px;
+  height: 100px;
+  background: #C4C4C4; 
   border-radius: 50%;
-  border:  1px dashed #F0722B;
+  /* border:  1px dashed #F0722B; */
+  border:  .5px dashed #FFA842;
   display: flex;
   justify-content: center;
   align-items: center;
   align-self: center;
-  margin: -60px auto 2px;
+  margin: -50px auto 2px;
   position: relative;
 `;
 
@@ -27,10 +28,12 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
 
-  background:#f9f9f9;
+  /* background: #f9f9f9; */
+  background: #fff;
   margin-bottom: 4rem;
   text-align: left;
-  border:  1px solid #ccc;
+  /* border:  1px solid #ddd; */
+  box-shadow: 0px 0px 2px 1px rgba(0, 51, 116, 0.2);
 `;
 
 export const Content = styled.div`
@@ -39,16 +42,18 @@ export const Content = styled.div`
 `;
 
 export const Title = styled.h1`
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   font-weight: Bold;
-  color: #222;
+  color: #354148;
   text-align: center;
+  /* margin: -5px auto 2px; */
 `;
 
 export const Text = styled.p`
-  font-size: 1.2rem;
+  font-size: 1.0rem;
   font-weight: normal;
-  color: #444;
-  margin-top: .8rem;
+  color: #354148;
+  margin-top: .6rem;
   line-height: 1.3;
+  text-align: center;
 `;

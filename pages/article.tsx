@@ -22,7 +22,6 @@ export default function Articles() {
           <h1> Artigos aqui</h1>
           <h1> Artigos aqui</h1>
           <h1> Artigos aqui</h1>
-
         </MaxWidth>
       </Container>
 

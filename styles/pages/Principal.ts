@@ -10,22 +10,26 @@ interface PropsImagem {
 export const Container = styled.div`
   width: 100%;
   min-height: 100vh;
+  background: #f6f8fa;
 
   display: flex;
-  flex: 1;
   justify-content: center;
   align-self: center;
-
-  background: #f6f8fa;
 `;
 
 export const MaxWidth = styled.div`
   max-width: 1280px;
-  width: 60%;
+  width: 50%;
   padding: 4rem 2rem 4rem 2rem;
   display: flex;
-  /* flex: 1; */
   align-items: flex-start;
+
+  @media (max-width: 1280px){
+    width: 70%;
+  }
+  @media (max-width: 580px){
+    width: 100%;
+  }
 `;
 
 export const Main = styled.main`
@@ -35,14 +39,6 @@ export const Main = styled.main`
   justify-content: center;
   align-items: flex-start;
 
-  /* margin: 4rem 1rem; */
-  padding: 4rem 4rem;
-  /* background: #ffffff; */
-  /* background: #f5f5f5; */
-  width: 50%;
-  
-  /* border: 1px solid #eaeaea; */
-  /* box-shadow: 0px 2px 4px rgba(29, 6, 9, 0.4); */
   border-radius: .6rem;
   font-family: 'Courier New', Courier, monospace;
 `;
@@ -53,12 +49,10 @@ export const Text = styled.p`
   font-size: 1.2rem;
 `;
 
-
 export const Author = styled.h3`
   color: #b7aeae;
   line-height: 1.8rem;
   font-size: 1.0rem;
-  /* margin-bottom: .6rem; */
 `;
 
 export const Content = styled.div`
@@ -89,9 +83,8 @@ export const TimeText = styled.h2`
 export const Tags = styled.div` 
   display: flex;
   flex-direction: row;
-
   margin: 1rem 0rem;
-`
+`;
 
 export const Tag = styled.div`
   background: #484848;

@@ -2,14 +2,13 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   display: flex;
+  flex: 1;
   justify-content: center;
   align-self: center;
 
   min-height: 100vh;
   width: 100%;
-  flex: 1;
   background: #f6f8fa;
-  /* background: #ddd; */
 `;
 
 export const Tag = styled.button`
@@ -40,12 +39,10 @@ export const MaxWidth = styled.div`
 
   padding: 8rem 2rem 4rem 2rem;
   max-width: 1280px;
-  /* background: #454555; */
   
   @media(max-width: 1280px) {
     align-self: center;
     justify-content: center;
-    /* padding: 0;  */
     padding: 6rem 0.8rem 4rem 0.8rem;
   }
 `;
@@ -54,8 +51,6 @@ export const CardGruop = styled.div`
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  /* background: #f3f3f3; */
-  /* background: #434aaa; */
 
   padding-bottom: 3.2rem ;
 
@@ -64,10 +59,9 @@ export const CardGruop = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
     padding-bottom: 0;
-    /* width: 700px; */
     padding: 0;
-    /* height: 600px; */
   }
 `;
 

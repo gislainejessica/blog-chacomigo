@@ -9,8 +9,8 @@ const About: React.FC = () => {
       <Picture
         className={"styles.image"}
         alt="Picture of the blog"
-        width={120}
-        height={120}
+        width={100}
+        height={100}
         src='/logo-cha.jpeg'
       />
 

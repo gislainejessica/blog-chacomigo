@@ -3,7 +3,20 @@ import Head from 'next/head'
 import Nav from '../components/Header'
 import Footer from '../components/Footer'
 
-import { Container, MaxWidth, Main, Title, Text, Content, Tags, Tag, Imagem, TagText, TimeText, Author } from '../styles/pages/Principal'
+import {
+  Container,
+  MaxWidth,
+  Main,
+  Title,
+  Text,
+  Content,
+  Tags,
+  Tag,
+  Imagem,
+  TagText,
+  TimeText,
+  Author
+} from '../styles/pages/Principal'
 
 export default function Article() {
   return (

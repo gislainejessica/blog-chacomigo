@@ -4,14 +4,15 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+
   height: 'auto';
   background:#354148;
-  padding: 1.6rem;
+  padding: 2.0rem;
   margin-bottom: 4rem;
 `;
 
 export const Title = styled.h1`
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: Bold;
   color: #fff;
   text-align: left;
@@ -19,14 +20,14 @@ export const Title = styled.h1`
 `;
 
 export const Text = styled.p`
-  font-size: 1.2rem;
+  font-size: 1.0rem;
   font-weight: normal;
   color: #fff;
   text-align: left;
 `;
 
 export const Press = styled.button`
-  font-size: 1.2rem;
+  font-size: 1.0rem;
   font-weight: normal;
 
   color: #3C96CA;

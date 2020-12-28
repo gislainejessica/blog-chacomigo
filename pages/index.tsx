@@ -1,5 +1,4 @@
 import Head from 'next/head'
-// import Link from 'next/link'
 
 import Menu from '../components/Header'
 import Footer from '../components/Footer'
@@ -9,7 +8,15 @@ import Newsletter from '../components/Newsletter'
 import About from '../components/About'
 import Card from '../components/Card'
 
-import { Container, Tag, MaxWidth, Main, Content, Sidebar, CardGruop } from '../styles/pages/Home'
+import {
+  Container,
+  Tag,
+  MaxWidth,
+  Main,
+  Content,
+  Sidebar,
+  CardGruop
+} from '../styles/pages/Home'
 
 export default function Home() {
   return (
