@@ -7,12 +7,27 @@ export const Container = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
 
-  border: 1px solid rgba(255, 168, 66, .5);
+  /* border: 1px solid rgba(255, 168, 66, .5); */
+  border: 2px solid #c5c5c5;
 
-  :hover {
+  border-radius: 4px;
+    /* border-radius: 3px; */
+
+  /* :hover {
     box-shadow: 1px 4px 10px 1px rgba(255, 168, 66, .5);
     border: none;
+  } */
+
+
+  :hover {
+    border: 2px solid #1900FF;
+    border-image-source: linear-gradient(to right, #1900FF, #C86DD7);
+    border-image-slice: 1;
+    border-radius: 12px;
+    border-radius: 3px;
+    box-shadow: 0 0 29px 0 rgba(73, 73, 73, 0.5);
   }
+
   margin-right: 1rem;
   margin-left: 4.4rem;
 
@@ -30,6 +45,7 @@ export const Container = styled.div`
 export const Wrapper = styled.div`
   background:#fff;
   /* width: 15rem; */
+  border-radius: 4px;
 
   display: flex;
   flex-direction: column;
@@ -66,8 +82,13 @@ export const DivImage = styled.div`
   background-image: url(https://cdn.pixabay.com/photo/2016/11/29/05/45/astronomy-1867616_960_720.jpg);
   width: 100%;
   height: 'auto';
+  /* border-radius: 4px 0px 0px 4px; */
 
   @media(max-width: 580px) {
     display: none;
+  }
+
+  :hover {
+    border-radius: 0px 0px 0px 0px;
   }
 `;

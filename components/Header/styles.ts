@@ -28,7 +28,6 @@ export const MaxWidth = styled.div`
   align-items: center;
 
   @media (max-width: 1280px){
-    justify-content: center;
   }
 `;
 
