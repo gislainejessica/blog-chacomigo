@@ -40,7 +40,7 @@ export default function Home() {
 
             <Content>
               <CardGruop>
-                <Link href="/home">
+                <Link href="/article">
                   <Tag> #Feminismo </Tag>
                 </Link>
                 {/* <div /> */}
@@ -48,14 +48,24 @@ export default function Home() {
               <Link href="/home">
                 <CardGruop>
                   <Card />
-                  <Card />
+                  {/* <Card /> */}
                 </CardGruop>
               </Link>
               <CardGruop>
                 <Card />
-                <Card />
+                {/* <Card /> */}
               </CardGruop>
 
+              <CardGruop>
+                <Card />
+                {/* <Card /> */}
+              </CardGruop>
+
+              <CardGruop>
+                <Card />
+                {/* <Card /> */}
+              </CardGruop>
+              {/*
               <CardGruop>
                 <Card />
                 <Card />
@@ -69,17 +79,7 @@ export default function Home() {
               <CardGruop>
                 <Card />
                 <Card />
-              </CardGruop>
-
-              <CardGruop>
-                <Card />
-                <Card />
-              </CardGruop>
-
-              <CardGruop>
-                <Card />
-                <Card />
-              </CardGruop>
+              </CardGruop> */}
 
             </Content>
           </Main>

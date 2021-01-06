@@ -14,13 +14,13 @@ export const Container = styled.div`
 
   background: linear-gradient(45deg, #F0722B,  #FFA842);
   background: linear-gradient(to right, #1900FF, #C86DD7);
-  background: #fff;
+  /* background: #fff; */
 `;
 
 export const Text = styled.p`
   color: #fff;
-  color: #7d2440;
-  color: #C86DD7;
+  /* color: #7d2440; */
+  /* color: #C86DD7; */
   font-size: 16px;
 `;
 

@@ -68,6 +68,8 @@ export const Title = styled.h1`
   font-weight: bold;
   text-align: center;
 
+  color: #330f1a;
+
   margin-bottom: .8rem;
   font-family: 'Courier New', Courier, monospace;
 `;
@@ -80,7 +82,9 @@ export const Tags = styled.div`
 
 export const DivImage = styled.div`
   background-image: url(https://cdn.pixabay.com/photo/2016/11/29/05/45/astronomy-1867616_960_720.jpg);
+  background-image: url(https://midias.agazeta.com.br/2020/10/13/710x388/a-uma-parcela-populacao-em-sua-maioria-preta-e-pobre-e-apenas-concedida-uma-cidadania-parcial-337879.jpg);
   width: 100%;
+  filter: grayscale(100%);
   height: 'auto';
   /* border-radius: 4px 0px 0px 4px; */
 

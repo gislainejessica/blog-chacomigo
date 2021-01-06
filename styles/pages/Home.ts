@@ -49,7 +49,7 @@ export const MaxWidth = styled.div`
   display: flex;
   align-items: flex-start;
 
-  padding: 8rem 2rem 4rem 2rem;
+  padding: 8rem 8rem 4rem 2rem;
   max-width: 1280px;
   
   @media(max-width: 1280px) {
@@ -65,6 +65,7 @@ export const CardGruop = styled.div`
   align-items: flex-start;
 
   padding-bottom: 3.2rem ;
+  padding-bottom: 2.0rem ;
 
   @media(max-width: 1280px) {
     display: flex;
@@ -79,7 +80,7 @@ export const CardGruop = styled.div`
 
 export const Main = styled.main`
   display: grid;
-  grid-template-columns: 1fr 5fr;
+  grid-template-columns: 1fr 4fr;
   font-family: 'Courier New', Courier, monospace;
 
   @media(max-width: 1280px) {

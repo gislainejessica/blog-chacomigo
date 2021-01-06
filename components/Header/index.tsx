@@ -6,7 +6,7 @@ const Header: React.FC = () => {
   return (
     <Container>
       <MaxWidth>
-        <Link href="/article">
+        <Link href="/">
           <Logo>ChaComigo Blog</Logo>
         </Link>
 

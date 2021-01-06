@@ -8,9 +8,9 @@ const Categories: React.FC = () => {
         <h3>Categorias</h3>
       </Header>
       <Content>
-        <TextColor>
+        {/* <TextColor>
           #Feminismo
-        </TextColor>
+        </TextColor> */}
         <Text>
           #Desconstrução
         </Text>
@@ -32,6 +32,9 @@ const Categories: React.FC = () => {
         <Text>
           #Mullher
         </Text>
+        <TextColor>
+          #Feminismo
+        </TextColor>
         <Text>
           #Auto-Estima
         </Text>
