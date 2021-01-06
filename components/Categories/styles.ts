@@ -25,9 +25,14 @@ export const Text = styled.p`
   font-size: 1.0rem;
   font-weight: normal;
   padding: .4rem;
+  margin-bottom: .4rem;
 
   :hover {
     color: #F0722B;
+    color: #C86DD7;
+    background: #fff;
+    border-radius: .4rem;
+    /* linear-gradient(to right, #1900FF, #C86DD7); */
   }
 `;
 
@@ -36,5 +41,10 @@ export const TextColor = styled.p`
   font-weight: normal;
   /* color: #739CDA; */
   color: #F0722B;
+  color: #C86DD7;
+  background: #fff;
+  border-radius: .4rem;
   padding: .4rem;
+  margin-bottom: .4rem;
+
 `;

@@ -10,7 +10,10 @@ interface PropsImagem {
 export const Container = styled.div`
   width: 100%;
   min-height: 100vh;
-  background: #f6f8fa;
+  /* background: #f6f8fa; */
+  background: #fff7f9;
+  /* background: #333322; */
+
 
   display: flex;
   justify-content: center;
@@ -23,6 +26,10 @@ export const MaxWidth = styled.div`
   padding: 4rem 2rem 4rem 2rem;
   display: flex;
   align-items: flex-start;
+  background: #fff;
+  margin-top: 8rem;
+  border-radius: .8rem;
+
 
   @media (max-width: 1280px){
     width: 70%;

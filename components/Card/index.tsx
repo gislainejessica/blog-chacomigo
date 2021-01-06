@@ -3,10 +3,11 @@ import React from 'react'
 import { Container, Text, Title, DivImage, Tags, Wrapper } from './styles'
 
 import MyTag from '../../components/Tag'
+import Link from 'next/link';
 
 const Card: React.FC = () => {
   return (
-    <Container >
+    <Container>
       <DivImage />
       <Wrapper>
         <Tags>

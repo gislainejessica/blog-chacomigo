@@ -8,23 +8,35 @@ export const Container = styled.div`
 
   min-height: 100vh;
   width: 100%;
-  background: #f6f8fa;
+  /* background: #f6f8fa; */
+  background: #fff7f9;
 `;
 
 export const Tag = styled.button`
-  background: linear-gradient(-90deg, #F0722B,  #FFA842);
+  /* background: linear-gradient(-90deg, #F0722B,  #FFA842); */
+  background: #fff;
+  
+  border: 2px solid #F0722B;
+  border-image-source: linear-gradient(to right, #F0722B, #FFA842);
+  border-image-source: linear-gradient(to right, #1900FF, #C86DD7);
+
+  border-image-slice: 1;
+  
   color: #fff;
-  border: 2px dashed #fff;
-  border-radius: .8rem;
+  color: #1900FF;
+  /* border: 2px dashed #fff; */
+  /* border-radius: .8rem; */
   
   align-self: center;
 
   margin-left: 4.4rem;
-  padding: .8rem;
+  /* padding: .8rem; */
+  padding: .1rem;
   width: 40%;
 
   font-weight: bold;
-  font-size: 1.6rem;
+  /* font-size: 1.6rem; */
+  font-size: 1.4rem;
 
   @media(max-width: 1280px) {
     width: 80%;

@@ -5,6 +5,9 @@ export const Header = styled.div`
   width: 100%;
   height: 5.7rem;
   background: linear-gradient(-180deg,  #fff, 60%, #f5a578);
+  
+  background: linear-gradient(127deg,  #eee, 70%, #ddd);
+
 `;
 
 export const Picture = styled(Image)`
@@ -14,6 +17,8 @@ export const Picture = styled(Image)`
   border-radius: 50%;
   /* border:  1px dashed #F0722B; */
   border:  .5px dashed #FFA842;
+  border:  .5px dashed #ddd  ;
+
   display: flex;
   justify-content: center;
   align-items: center;

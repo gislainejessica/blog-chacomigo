@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 
 import Menu from '../components/Header'
 import Footer from '../components/Footer'
@@ -39,9 +40,26 @@ export default function Home() {
 
             <Content>
               <CardGruop>
-                <Tag> #Feminismo </Tag>
+                <Link href="/home">
+                  <Tag> #Feminismo </Tag>
+                </Link>
                 {/* <div /> */}
               </CardGruop>
+              <Link href="/home">
+                <CardGruop>
+                  <Card />
+                  <Card />
+                </CardGruop>
+              </Link>
+              <CardGruop>
+                <Card />
+                <Card />
+              </CardGruop>
+
+              <CardGruop>
+                <Card />
+                <Card />
+              </CardGruop>
 
               <CardGruop>
                 <Card />
@@ -52,7 +70,7 @@ export default function Home() {
                 <Card />
                 <Card />
               </CardGruop>
-              {/*
+
               <CardGruop>
                 <Card />
                 <Card />
@@ -61,7 +79,7 @@ export default function Home() {
               <CardGruop>
                 <Card />
                 <Card />
-              </CardGruop> */}
+              </CardGruop>
 
             </Content>
           </Main>

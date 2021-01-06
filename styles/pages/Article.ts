@@ -6,7 +6,9 @@ export const Container = styled.div`
 
   display: flex;
   justify-content: center;
-  background: #f5f5f5;
+  /* background: #f5f5f5; */
+  background: #fff7f9;
+
 `;
 
 export const MaxWidth = styled.div`

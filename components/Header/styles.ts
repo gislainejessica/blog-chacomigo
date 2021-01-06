@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   background: linear-gradient(90deg, #F0722B, 50%,  #FFA842);
+  background: linear-gradient(to right, #1900FF, 40%, #C86DD7);
   font-family: 'Courier New', Courier, monospace;
   
   width: 100%;
