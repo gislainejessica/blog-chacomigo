@@ -16,18 +16,22 @@ export const Container = styled.div`
 
   display: flex;
   justify-content: center;
-  align-self: center;
+  align-items: flex-start;
+  /* align-self: center; */
 `;
 
 export const MaxWidth = styled.div`
   max-width: 1280px;
   width: 50%;
-  padding: 4rem 2rem 4rem 2rem;
+  padding: 3.2rem 3.2rem 3.2rem 3.2rem;
+
   display: flex;
   align-items: flex-start;
   background: #fff;
-  margin-top: 8rem;
+  margin-top: 6.4rem;
+  margin-bottom: 3.2rem;
   border-radius: .8rem;
+  /* background: #008335; */
 
   @media (max-width: 1280px){
     width: 70%;
@@ -36,6 +40,7 @@ export const MaxWidth = styled.div`
     width: 100%;
     padding: 2rem .6rem 2rem .8rem;
     margin-top: 2rem;
+    margin-bottom: 0rem;
   }
 `;
 
@@ -45,6 +50,7 @@ export const Main = styled.main`
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  
 
   border-radius: .6rem;
   font-family: 'Courier New', Courier, monospace;
@@ -74,7 +80,7 @@ export const Content = styled.div`
 `;
 
 export const Imagem = styled(Image) <PropsImagem>`
-  background: linear-gradient(45deg, #FFA842,  #F0722B);;
+  background: linear-gradient(to right, #1900FF, #C86DD7);
   height: 17rem;
   width: 100%;
   border-radius: .8rem;
