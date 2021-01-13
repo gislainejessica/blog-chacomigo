@@ -8,27 +8,29 @@ const Footer: React.FC = () => {
   return (
     <Container>
       <Redes>
-        <Link>
-          Home
+        <div>
+          <Link>
+            Home
         </Link>
-        <Link>
-          Código de Conduta
+          <Link>
+            Código de Conduta
         </Link>
-        <Link>
-          Politíca de privacidade
+          <Link>
+            Politíca de privacidade
         </Link>
-        <Link>
-          Termos de uso
+          <Link>
+            Termos de uso
         </Link>
-        <Link>
-          Contato
+          <Link>
+            Contato
         </Link>
-        <Link>
-          FAQ
+          <Link>
+            FAQ
         </Link>
-        <Link>
-          Sobre
+          <Link>
+            Sobre
         </Link>
+        </div>
       </Redes>
 
       <Redes>
