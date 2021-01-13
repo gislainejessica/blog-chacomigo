@@ -40,8 +40,9 @@ export const Tag = styled.button`
 
   @media(max-width: 1280px) {
     width: 80%;
-    margin-left: 2.8rem;
+    /* margin-left: 2.8rem; */
     font-size: 1.4rem;
+    margin-left: 0rem;
   }
 `;
 
@@ -87,6 +88,8 @@ export const Main = styled.main`
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    padding: 0;
   }
 `;
 

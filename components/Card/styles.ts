@@ -35,6 +35,7 @@ export const Container = styled.div`
     margin-bottom: 1.6rem;
     margin-top: 1.6rem;
     width: 80%;
+    margin-left: 1rem;
   }
 
   @media(max-width: 580px) {

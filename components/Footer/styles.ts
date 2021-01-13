@@ -5,6 +5,7 @@ export const Container = styled.div`
   height: 250px;
   
   display: flex;
+  flex: 1;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -14,6 +15,7 @@ export const Container = styled.div`
 
   background: linear-gradient(45deg, #F0722B,  #FFA842);
   background: linear-gradient(to right, #1900FF, #C86DD7);
+  padding: 1.2rem;
   /* background: #fff; */
 `;
 
@@ -22,5 +24,7 @@ export const Text = styled.p`
   /* color: #7d2440; */
   /* color: #C86DD7; */
   font-size: 16px;
+  text-align: center;
+  margin-top: .6rem;
 `;
 

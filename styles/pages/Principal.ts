@@ -14,7 +14,6 @@ export const Container = styled.div`
   background: #fff7f9;
   /* background: #333322; */
 
-
   display: flex;
   justify-content: center;
   align-self: center;
@@ -30,12 +29,13 @@ export const MaxWidth = styled.div`
   margin-top: 8rem;
   border-radius: .8rem;
 
-
   @media (max-width: 1280px){
     width: 70%;
   }
   @media (max-width: 580px){
     width: 100%;
+    padding: 2rem .6rem 2rem .8rem;
+    margin-top: 2rem;
   }
 `;
 
@@ -91,14 +91,25 @@ export const Tags = styled.div`
   display: flex;
   flex-direction: row;
   margin: 1rem 0rem;
+
+  @media (max-width: 580px){
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+  }
 `;
 
 export const Tag = styled.div`
-  background: #484848;
+  background: #008335;
   border-radius: 5rem;
   padding: 0.4rem 1.6rem;
   margin-right: .8rem;
   border: 1px solid #84BBE3;
+  /* border: 1px solid #4150f5; */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 
 export const TagText = styled.p` 
@@ -106,6 +117,7 @@ export const TagText = styled.p`
   color: #e5e5e5;
   font-weight: bold;
   letter-spacing: 1.8px;
+  text-align: center;
 `;
 
 export const Title = styled.h1`
