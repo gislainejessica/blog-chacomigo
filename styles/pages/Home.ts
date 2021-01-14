@@ -46,11 +46,12 @@ export const Tag = styled.button`
   }
 
   @media(max-width: 1280px) {
-    width: 80%;
+    width: 100%;
     /* margin-left: 2.8rem; */
     font-size: 1.2rem;
     margin-left: 0rem;
     padding: 0rem;
+    margin-bottom: .8rem;
   }
 `;
 

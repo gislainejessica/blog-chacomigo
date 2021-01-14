@@ -32,11 +32,20 @@ export const Container = styled.div`
   margin-left: 4.4rem;
 
   @media(max-width: 1280px) {
-    margin-bottom: 1.6rem;
-    margin-top: 1.6rem;
+    margin-bottom: 0.6rem;
+    margin-top: 0.6rem;
     width: 80%;
+    width: 100%;
+
     margin-left: 1rem;
   }
+
+
+  /* @media(max-width: 780px) {
+    margin: 0.8rem;
+    width: 100%;
+    padding: .4rem;
+  } */
 
   @media(max-width: 580px) {
    display: flex;
@@ -53,6 +62,7 @@ export const Wrapper = styled.div`
   justify-content: flex-start;
   align-items: center;
   padding: .4rem;
+
   /* background: #ddf; */
 `;
 
