@@ -38,13 +38,19 @@ export const Tag = styled.button`
 
   font-weight: bold;
   /* font-size: 1.6rem; */
-  font-size: 1.4rem;
+  font-size: 1.2rem;
+
+  :hover {
+    background: linear-gradient(to right, #1900FF, #C86DD7);
+    color: #fff;
+  }
 
   @media(max-width: 1280px) {
     width: 80%;
     /* margin-left: 2.8rem; */
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     margin-left: 0rem;
+    padding: 0rem;
   }
 `;
 
@@ -85,7 +91,9 @@ export const CardGruop = styled.div`
 export const Main = styled.main`
   display: grid;
   grid-template-columns: 1fr 4fr;
-  font-family: 'Courier New', Courier, monospace;
+  /* font-family: 'Courier New', Courier, monospace; */
+  font-family: 'Inter', sans-serif;
+
 
   @media(max-width: 1280px) {
     display: flex;
@@ -99,7 +107,9 @@ export const Main = styled.main`
 export const Content = styled.div`
   display: flex;
   flex-direction: column;
-  font-family: 'Courier New', Courier, monospace;
+  /* font-family: 'Courier New', Courier, monospace; */
+  font-family: 'Inter', sans-serif;
+
 `;
 
 export const Sidebar = styled.div`
@@ -108,7 +118,9 @@ export const Sidebar = styled.div`
   @media(min-width: 1280px) {
     display: flex;
     flex-direction: column;
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: 'Inter', sans-serif;
+
     max-width: 22rem;
   }
 `;

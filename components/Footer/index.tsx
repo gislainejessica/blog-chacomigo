@@ -35,16 +35,16 @@ const Footer: React.FC = () => {
 
       <Redes>
         <a href="https://www.instagram.com/chacomigobr/">
-          <FaFacebook size={20} />
+          <FaFacebook size={24} />
         </a>
         <a href="https://www.instagram.com/chacomigobr/">
-          <FaInstagram size={20} />
+          <FaInstagram size={24} />
         </a>
         <a href="https://twitter.com/chacomigobr">
-          <FaTwitter size={20} />
+          <FaTwitter size={24} />
         </a>
         <a href="https://twitter.com/chacomigobr">
-          <FaYoutube size={20} />
+          <FaYoutube size={24} />
         </a>
       </Redes>
 

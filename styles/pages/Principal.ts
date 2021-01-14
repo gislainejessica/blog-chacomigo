@@ -65,7 +65,7 @@ export const Text = styled.p`
   font-family: 'Inter', sans-serif;
 
   @media(max-width: 580px) {
-    font-size: 1.0rem;
+    font-size: 1.1rem;
   }
 `;
 
@@ -128,7 +128,7 @@ export const Tag = styled.div`
 `;
 
 export const TagText = styled.p` 
-font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif;
 
   font-size: 14px;
   color: #e5e5e5;
@@ -138,7 +138,8 @@ font-family: 'Inter', sans-serif;
 `;
 
 export const Title = styled.h1`
-font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif;
+  font-size: 2rem;
 
   color: #354148;
   padding: .6rem 0;

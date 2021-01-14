@@ -32,15 +32,14 @@ export const Text = styled.p`
   /* color: #7d2440; */
   /* color: #C86DD7; */
   /* color: #202428; */
-  font-size: 14px;
+  font-size: 1.0rem;
   text-align: center;
   /* margin-top: 1.6rem; */
   /* margin: 8px ; */
   line-height: 1.4rem;
 
-
   @media(max-width: 580px) {
-    font-size: 12px;
+    font-size: .8rem;
   }
 `;
 
@@ -48,18 +47,21 @@ export const Link = styled.h3`
   color: #202428;
   color: #fff;
 
-  font-size: 14px;
+  font-size: 1.2rem;
+
   text-align: center;
   /* margin-top: .6rem; */
   margin: 1.6rem;
 
   @media(max-width: 580px) {
-    margin: .8rem;
+    margin: 1.2rem;
+    font-size: 1.0rem;
   }
 `;
 
 export const Links = styled.div`
   display: flex;
+  
   @media(max-width: 758px) {
     display: block
   }

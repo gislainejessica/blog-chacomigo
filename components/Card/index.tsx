@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
-import { Container, Text, Title, DivImage, Tags, Wrapper } from './styles'
+import { FaSeedling } from 'react-icons/fa'
+import { Container, Text, Title, DivImage, Tags, Wrapper, Continue, Content } from './styles'
 
 import MyTag from '../../components/Tag'
 import Link from 'next/link';
@@ -24,13 +25,18 @@ const Card: React.FC = () => {
         <Title>
           Existe vida após a violência
         </Title>
-        <Text>
-          Conteudo inicial mostrada para
-          chamar atenção para a pessoa
-        </Text>
-        <Text>
-          Continuar Lendo ==x
-        </Text>
+        <Content>
+          <Text>
+            Conteudo inicial mostrada para
+            chamar atenção para a pessoa
+            Conteudo inicial mostrada para
+            chamar atenção para a pessoa...
+          </Text>
+          <Continue>
+            Continuar Lendo
+            <FaSeedling size={20} color="#90aa22" />
+          </Continue>
+        </Content>
       </Wrapper>
     </Container>
   );

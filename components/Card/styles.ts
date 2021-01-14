@@ -52,6 +52,8 @@ export const Wrapper = styled.div`
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  padding: .4rem;
+  /* background: #ddf; */
 `;
 
 export const Text = styled.p`
@@ -62,6 +64,27 @@ export const Text = styled.p`
 
   margin-left: .8rem;
   margin-right: .8rem;
+`;
+
+export const Continue = styled.div`
+  font-family: 'Inter', sans-serif;
+  font-size: .8rem;
+  font-weight: normal;
+  text-align: left;
+
+  align-self: center;
+
+  margin-left: .8rem;
+  margin-right: .8rem;
+  /* text-align: right; */
+`;
+
+export const Content = styled.div`
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+ 
 `;
 
 export const Title = styled.h1`
