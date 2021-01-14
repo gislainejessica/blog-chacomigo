@@ -1,14 +1,14 @@
 import React from 'react';
 // import styles from '../../styles/Home.module.css'
-import { FaFacebook, FaGithub, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
+import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
 
-import { Container, Text, Link, Redes, Line } from './styles'
+import { Container, Text, Links, Link, Redes, Line } from './styles'
 
 const Footer: React.FC = () => {
   return (
     <Container>
       <Redes>
-        <div>
+        <Links>
           <Link>
             Home
         </Link>
@@ -30,37 +30,38 @@ const Footer: React.FC = () => {
           <Link>
             Sobre
         </Link>
-        </div>
+        </Links>
       </Redes>
 
       <Redes>
-        <h4>
-          {/* Facebook */}
+        <a href="https://www.instagram.com/chacomigobr/">
           <FaFacebook size={20} />
-        </h4>
-        <h4>
-          {/* Instagram */}
-          < FaInstagram size={20} />
-
-        </h4>
-        <h4>
-          {/* Twitter */}
+        </a>
+        <a href="https://www.instagram.com/chacomigobr/">
+          <FaInstagram size={20} />
+        </a>
+        <a href="https://twitter.com/chacomigobr">
           <FaTwitter size={20} />
-        </h4>
-        <h4>
-          {/* Youtube */}
+        </a>
+        <a href="https://twitter.com/chacomigobr">
           <FaYoutube size={20} />
-        </h4>
+        </a>
       </Redes>
 
       <Line />
 
       <Text>
-        ChaComigo Blog
+        ChaComigo Blog –
+        Uma rede social construtiva e inclusiva.
+        Com você em cada etapa de sua jornada rumo a um universo mais consciente.
       </Text>
+
+      <br />
+      {/* Feito e Publicado usando Next.  */}
       <Text>
-        © 2020 Blog da ChaComigo. Feito com  Published with Next.
+        ChaComigo © 2020 - 2021.
       </Text>
+
     </Container>
   );
 };

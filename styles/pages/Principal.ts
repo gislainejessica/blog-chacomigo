@@ -10,6 +10,8 @@ interface PropsImagem {
 export const Container = styled.div`
   width: 100%;
   min-height: 100vh;
+  min-width: 28rem;
+
   /* background: #f6f8fa; */
   background: #fff7f9;
   /* background: #333322; */
@@ -36,9 +38,9 @@ export const MaxWidth = styled.div`
   @media (max-width: 1280px){
     width: 70%;
   }
-  @media (max-width: 580px){
+  @media (max-width: 758px){
     width: 100%;
-    padding: 2rem .6rem 2rem .8rem;
+    padding: 2rem 1.6rem 2rem 1.6rem;
     margin-top: 2rem;
     margin-bottom: 0rem;
   }
@@ -60,6 +62,11 @@ export const Text = styled.p`
   color: #354148;
   line-height: 1.8rem;
   font-size: 1.2rem;
+  font-family: 'Inter', sans-serif;
+
+  @media(max-width: 580px) {
+    font-size: 1.0rem;
+  }
 `;
 
 export const Author = styled.h3`
@@ -91,6 +98,8 @@ export const TimeText = styled.h2`
   line-height: 1.8rem;
   font-size: 1.0rem;
   margin-bottom: 1.6rem;
+  font-family: 'Inter', sans-serif;
+
 `;
 
 export const Tags = styled.div` 
@@ -119,6 +128,8 @@ export const Tag = styled.div`
 `;
 
 export const TagText = styled.p` 
+font-family: 'Inter', sans-serif;
+
   font-size: 14px;
   color: #e5e5e5;
   font-weight: bold;
@@ -127,6 +138,8 @@ export const TagText = styled.p`
 `;
 
 export const Title = styled.h1`
+font-family: 'Inter', sans-serif;
+
   color: #354148;
   padding: .6rem 0;
   text-align: center;

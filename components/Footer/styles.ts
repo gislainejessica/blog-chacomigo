@@ -3,9 +3,10 @@ import styled from 'styled-components';
 export const Container = styled.div`
   width: 100%;
   min-height: 250px;
+  min-width: 28rem;
   
   display: block;
-  /* flex: 1; */
+  flex: 1;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -34,7 +35,13 @@ export const Text = styled.p`
   font-size: 14px;
   text-align: center;
   /* margin-top: 1.6rem; */
-  margin: 8px ;
+  /* margin: 8px ; */
+  line-height: 1.4rem;
+
+
+  @media(max-width: 580px) {
+    font-size: 12px;
+  }
 `;
 
 export const Link = styled.h3`
@@ -51,18 +58,29 @@ export const Link = styled.h3`
   }
 `;
 
+export const Links = styled.div`
+  display: flex;
+  @media(max-width: 758px) {
+    display: block
+  }
+`;
+
 export const Redes = styled.div`
   display: flex;
   /* flex: 1; */
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin-bottom: 1.6rem;
   /* background: #ddd; */
 
-  h4 {
+  a {
     margin: 0px .8rem ;
     color: #202428;
     color: #ffff;
+    :hover {
+      color: #333;
+    }
   }
 `;
 
