@@ -8,6 +8,8 @@ export const Container = styled.div`
 
   min-height: 100vh;
   width: 100%;
+  min-width: 28rem;
+
   /* background: #f6f8fa; */
   background: #fff7f9;
 `;
@@ -52,7 +54,7 @@ export const MaxWidth = styled.div`
 
   padding: 8rem 8rem 4rem 2rem;
   max-width: 1280px;
-  min-width: 28rem;
+  /* min-width: 28rem; */
   
   @media(max-width: 1280px) {
     /* align-self: center; */
