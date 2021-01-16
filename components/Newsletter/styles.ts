@@ -42,6 +42,10 @@ export const Press = styled.button`
   margin: 1rem ;
   padding: .8rem;
 
+  :focus {
+    border: 2px solid #3C96CA;
+    border-radius: .8rem;
+  }
 `;
 
 
@@ -52,4 +56,9 @@ export const Input = styled.input`
   height: 2.5rem;
   width: 100%;
   margin: 1rem ;
+
+  :focus {
+    border: 2px solid #fff;
+    border-radius: .8rem;
+  }
 `;

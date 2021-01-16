@@ -23,6 +23,7 @@ export const Tag = styled.button`
   border-image-source: linear-gradient(to right, #1900FF, #C86DD7);
 
   border-image-slice: 1;
+  text-transform: uppercase;
   
   color: #fff;
   color: #1900FF;

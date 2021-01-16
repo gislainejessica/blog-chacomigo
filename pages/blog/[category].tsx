@@ -1,13 +1,13 @@
 import Head from 'next/head'
 import Link from 'next/link'
 
-import Menu from '../components/Header'
-import Footer from '../components/Footer'
+import Menu from '../../components/Header'
+import Footer from '../../components/Footer'
 
-import Categories from '../components/Categories'
-import Newsletter from '../components/Newsletter'
-import About from '../components/About'
-import Card from '../components/Card'
+import Categories from '../../components/Categories'
+import Newsletter from '../../components/Newsletter'
+import About from '../../components/About'
+import Card from '../../components/Card'
 
 import {
   Container,
@@ -17,9 +17,15 @@ import {
   Content,
   Sidebar,
   CardGruop
-} from '../styles/pages/Home'
+} from '../../styles/pages/Home'
+
+import { useRouter } from 'next/router'
 
 export default function Home() {
+
+  const router = useRouter()
+  const { category } = router.query
+  console.log(category)
   return (
     <>
       <Head>
@@ -41,7 +47,7 @@ export default function Home() {
             <Content>
               <CardGruop>
                 <Link href="/article">
-                  <Tag> #Feminismo </Tag>
+                  <Tag> #{category} </Tag>
                 </Link>
                 {/* <div /> */}
               </CardGruop>

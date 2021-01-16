@@ -1,5 +1,10 @@
 import styled from 'styled-components';
 
+interface Props {
+  selected?: boolean;
+  onClick?: () => {}
+}
+
 export const Container = styled.div`
   height: 'auto';
   background:#E2E7E9;
@@ -21,40 +26,25 @@ export const Header = styled.div`
   align-items: center;
 `;
 
-export const Text = styled.p`
+export const Text = styled.p<Props>`
   font-size: 1.0rem;
   font-weight: normal;
   padding: .4rem;
   margin-bottom: .4rem;
-  color: #330f1a;
-  border: 2px solid transparent;
 
+  color: ${props => props.selected ? '#1900FF' : '#330f1a'};
+  background: ${props => props.selected ? '#fff' : 'none'};
 
-  :hover {
-    color: #F0722B;
-    color: #C86DD7;
-    color: #1900FF;
-
-    /* background: #fff;  */
-    border-radius: .4rem;
-    border: 2px solid #1900FF;
-
-    /* linear-gradient(to right, #1900FF, #C86DD7); */
-  }
-`;
-
-export const TextColor = styled.p`
-  font-size: 1.0rem;
-  font-weight: normal;
-  color: #739CDA;
-  /* color: #F0722B; */
-  /* color: #C86DD7; */
-  color: #1900FF;
-  background: #fff;
-  border: 2px solid #fff;
+  /* border: ${props => props.selected ? '2px solid #fff' : `2px solid transparent`}; */
+  border: ${props => props.selected ? '2px solid #1900FF' : `2px solid transparent`};
   border-radius: .4rem;
-  /* border: 2px solid #fff; */
-  padding: .4rem;
-  margin-bottom: .4rem;
-
+  
+  :hover {
+    color: #1900FF;
+    border-radius: .4rem;
+    /* border: ${props => props.selected ? '2px solid #fff' : '2px solid #1900FF'}; */
+    border: ${props => props.selected ? '2px solid #1900FF' : '2px solid #1900FF'};
+    
+    /* border: 2px solid #1900FF; */
+  }
 `;
