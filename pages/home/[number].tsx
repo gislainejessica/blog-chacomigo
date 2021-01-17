@@ -18,8 +18,6 @@ import {
   Author
 } from '../../styles/pages/Principal'
 
-import bigTag from '../../components/Tag'
-
 import { useRouter } from 'next/router'
 
 export default function Article() {

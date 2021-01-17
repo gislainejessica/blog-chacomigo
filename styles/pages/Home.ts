@@ -62,6 +62,7 @@ export const MaxWidth = styled.div`
 
   padding: 8rem 8rem 4rem 2rem;
   max-width: 1280px;
+  
   /* min-width: 28rem; */
   
   @media(max-width: 1280px) {

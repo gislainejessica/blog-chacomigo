@@ -105,7 +105,7 @@ export default function Home() {
 
             <Content>
               <CardGruop>
-                <Link href="/blog/feminismo">
+                <Link href={`/info/${category}`}>
                   <Tag> #{category} </Tag>
                 </Link>
               </CardGruop>
