@@ -65,7 +65,7 @@ export const Link = styled.h3`
 export const Links = styled.div`
   display: flex;
   
-  @media(max-width: 758px) {
+  @media(max-width: 858px) {
     display: block
   }
 `;

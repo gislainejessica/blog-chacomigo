@@ -1,36 +1,41 @@
-import Image from 'next/image'
+// import Link from 'next/link';
+// import Image from 'next/image'
 import React from 'react'
 import { FaSeedling } from 'react-icons/fa'
 import { Container, Text, Title, DivImage, Tags, Wrapper, Continue, Content } from './styles'
 
 import MyTag from '../../components/Tag'
-import Link from 'next/link';
 
-const Card: React.FC = () => {
+type tag = {
+  content: string,
+  color: string
+}
+
+interface PropsCard {
+  title: string;
+  content: string;
+  tags: [tag];
+}
+
+const Card: React.FC<PropsCard> = ({ title = "TITULO", content = "CONTEUDO DO ARTIGO...CONTEUDO DO ARTIGO...", tags = [] }) => {
   return (
     <Container>
       <DivImage />
       <Wrapper>
         <Tags>
-          <MyTag color="#ff7474" size={1}>
-            #Violência
-          </MyTag>
-          {/* <MyTag color="#90aa22" size={1}>
-            #Feminismo
-          </MyTag> */}
-          <MyTag color="#3d3d3d" size={1}>
-            #Machismo
-          </MyTag>
+          {tags.map(tag => (
+            <MyTag color={tag.color} size={1}>
+              {tag.content}
+            </MyTag>
+          ))}
+
         </Tags>
         <Title>
-          Existe vida após a violência
+          {title}
         </Title>
         <Content>
           <Text>
-            Conteudo inicial mostrada para
-            chamar atenção para a pessoa
-            Conteudo inicial mostrada para
-            chamar atenção para a pessoa...
+            {content}
           </Text>
           <Continue>
             Continuar Lendo

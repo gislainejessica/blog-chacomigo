@@ -7,6 +7,10 @@ interface PropsImagem {
   src: string
 }
 
+interface Props {
+  color: string;
+}
+
 export const Container = styled.div`
   width: 100%;
   min-height: 100vh;
@@ -24,7 +28,8 @@ export const Container = styled.div`
 
 export const MaxWidth = styled.div`
   max-width: 1280px;
-  width: 50%;
+  /* width: 50%; */
+  width: 60%;
   padding: 3.2rem 3.2rem 3.2rem 3.2rem;
 
   display: flex;
@@ -35,9 +40,14 @@ export const MaxWidth = styled.div`
   border-radius: .8rem;
   /* background: #008335; */
 
-  @media (max-width: 1280px){
+  /* @media (min-width: 1280px){
     width: 70%;
+  } */
+
+  @media (max-width: 1280px){
+    width: 80%;
   }
+
   @media (max-width: 758px){
     width: 100%;
     padding: 2rem 1.6rem 2rem 1.6rem;
@@ -114,8 +124,9 @@ export const Tags = styled.div`
   }
 `;
 
-export const Tag = styled.div`
-  background: #008335;
+export const Tag = styled.div<Props>`
+  background: #008115;
+  background: ${props => props.color};
   border-radius: 5rem;
   padding: 0.4rem 1.6rem;
   margin-right: .8rem;

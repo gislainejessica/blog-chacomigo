@@ -6,11 +6,9 @@ import { Container, Header, Text, Content } from './styles'
 
 const Categories: React.FC = () => {
   const router = useRouter()
-  const { category } = router.query
 
+  let { category } = router.query
 
-  const [selected, setSelected] = React.useState(false)
-  console.log(category.includes("desconstrucao"))
   return (
     <Container >
       <Header>
@@ -18,47 +16,47 @@ const Categories: React.FC = () => {
       </Header>
       <Content>
         <Link href="/blog/desconstrucao">
-          <Text selected={category.includes("desconstrucao") ? true : false}>
+          <Text selected={category == "desconstrucao" ? true : false}>
             #Desconstrução
           </Text>
         </Link>
         <Link href="/blog/violencia">
-          <Text selected={category.includes("violencia") ? true : false}>
+          <Text selected={category == "violencia" ? true : false}>
             #Violência
           </Text>
         </Link>
         <Link href="/blog/machismo">
-          <Text selected={category.includes("machismo") ? true : false} >
+          <Text selected={category == "machismo" ? true : false} >
             #Machismo
           </Text>
         </Link>
         <Link href="/blog/revolucao">
-          <Text selected={category.includes("revolucao") ? true : false}>
+          <Text selected={category == "revolucao" ? true : false}>
             #Revolução
           </Text>
         </Link>
         <Link href="/blog/politicas_publicas">
-          <Text selected={category.includes("politicas_publicas") ? true : false}>
+          <Text selected={category == "politicas_publicas" ? true : false}>
             #Políticas Públicas
           </Text>
         </Link>
         <Link href="/blog/psicologia">
-          <Text selected={category.includes("psicologia") ? true : false}>
+          <Text selected={category == "psicologia" ? true : false}>
             #Psicologia
           </Text>
         </Link>
         <Link href="/blog/mulher">
-          <Text selected={category.includes("mulher") ? true : false}>
+          <Text selected={category == "mulher" ? true : false}>
             #Mulher
           </Text>
         </Link>
         <Link href="/blog/feminismo">
-          <Text selected={category.includes("feminismo") ? true : false}>
+          <Text selected={category == "feminismo" ? true : false}>
             #Feminismo
           </Text>
         </Link>
         <Link href="/blog/auto_estima">
-          <Text selected={category.includes("auto_estima") ? true : false}>
+          <Text selected={category == "auto_estima" ? true : false}>
             #Auto-Estima
           </Text>
         </Link>

@@ -4,7 +4,7 @@ import { Container } from './styles';
 
 interface PropsTag {
   color: string;
-  size: number;
+  size?: number;
   children: React.ReactNode
 }
 

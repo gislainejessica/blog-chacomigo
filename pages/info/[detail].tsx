@@ -1,9 +1,9 @@
 import Head from 'next/head'
 
-import Menu from '../components/Header'
-import Footer from '../components/Footer'
+import Menu from '../../components/Header'
+import Footer from '../../components/Footer'
 
-import { Container, MaxWidth } from '../styles/pages/Article'
+import { Container, MaxWidth } from '../../styles/pages/Article'
 
 export default function Articles() {
   return (
