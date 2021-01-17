@@ -21,12 +21,14 @@ export const Tag = styled.button`
   border: 2px solid #F0722B;
   border-image-source: linear-gradient(to right, #F0722B, #FFA842);
   border-image-source: linear-gradient(to right, #1900FF, #C86DD7);
+  border-image-source: linear-gradient(145deg, #813F80, #E26872);
+
 
   border-image-slice: 1;
   text-transform: uppercase;
   
   color: #fff;
-  color: #1900FF;
+  color: #813F80;
   /* border: 2px dashed #fff; */
   /* border-radius: .8rem; */
   
@@ -43,6 +45,8 @@ export const Tag = styled.button`
 
   :hover {
     background: linear-gradient(to right, #1900FF, #C86DD7);
+    background: linear-gradient(145deg, #813F80, #E26872);
+
     color: #fff;
   }
 

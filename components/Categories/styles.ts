@@ -33,18 +33,23 @@ export const Text = styled.p<Props>`
   margin-bottom: .4rem;
 
   color: ${props => props.selected ? '#1900FF' : '#330f1a'};
+  color: ${props => props.selected ? '#813F80' : '#330f1a'};
   background: ${props => props.selected ? '#fff' : 'none'};
 
   /* border: ${props => props.selected ? '2px solid #fff' : `2px solid transparent`}; */
   border: ${props => props.selected ? '2px solid #1900FF' : `2px solid transparent`};
+  border: ${props => props.selected ? '2px solid #813F80' : `2px solid transparent`};
+
   border-radius: .4rem;
   
   :hover {
     color: #1900FF;
+    color: #813F80;
+
     border-radius: .4rem;
     /* border: ${props => props.selected ? '2px solid #fff' : '2px solid #1900FF'}; */
     border: ${props => props.selected ? '2px solid #1900FF' : '2px solid #1900FF'};
-    
+    border: ${props => props.selected ? '2px solid #813F80' : '2px solid #813F80'};
     /* border: 2px solid #1900FF; */
   }
 `;

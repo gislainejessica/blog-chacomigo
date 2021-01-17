@@ -98,6 +98,8 @@ export const Content = styled.div`
 
 export const Imagem = styled(Image) <PropsImagem>`
   background: linear-gradient(to right, #1900FF, #C86DD7);
+  background: linear-gradient(145deg, #813F80, #E26872);
+  
   height: 17rem;
   width: 100%;
   border-radius: .8rem;
@@ -159,7 +161,8 @@ export const Title = styled.h1`
   font-weight: 600;
   background: linear-gradient(-297.95deg, #004FC5 10.56%, #00C472 89.01%);
   /* background: linear-gradient(-297.95deg, #1900FF 10.56%, #C86DD7 89.01%); */
-  background: linear-gradient(-297.95deg, #1900FF 10.56%, #C86DD7 89.01%);
+  background: linear-gradient(-297.95deg, #813F80 10.56%, #E26872 89.01%);
+   /* background: linear-gradient(145deg, #813F80, #E26872); */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 0;

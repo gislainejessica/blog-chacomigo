@@ -18,6 +18,9 @@ export const Container = styled.div`
   background: linear-gradient(to right, #1900FF, #C86DD7);
   background: linear-gradient(145deg, #1900FF, #C86DD7);
 
+  background: linear-gradient(145deg, #813F80, #E26872);
+
+
   /* background: #d2d6db; */
   padding: 4.8rem;
   /* padding-bottom: 6rem; */
@@ -26,7 +29,7 @@ export const Container = styled.div`
 
   @media(max-width: 580px) {
     padding: 2rem;
-    background: linear-gradient(145deg, #1900FF, #C86DD7);
+    /* background: linear-gradient(145deg, #1900FF, #C86DD7); */
   }
 `;
 
