@@ -14,7 +14,10 @@ type tag = {
 interface PropsCard {
   title: string;
   content: string;
-  tags: [tag];
+  tags: {
+    content: string,
+    color: string
+  }[];
 }
 
 const Card: React.FC<PropsCard> = ({ title = "TITULO", content = "CONTEUDO DO ARTIGO...CONTEUDO DO ARTIGO...", tags = [] }) => {
@@ -24,7 +27,7 @@ const Card: React.FC<PropsCard> = ({ title = "TITULO", content = "CONTEUDO DO AR
       <Wrapper>
         <Tags>
           {tags.map(tag => (
-            <MyTag color={tag.color} size={1}>
+            <MyTag key={tag.content} color={tag.color} size={1}>
               {tag.content}
             </MyTag>
           ))}

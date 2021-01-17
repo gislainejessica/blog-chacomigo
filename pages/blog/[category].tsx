@@ -111,7 +111,7 @@ export default function Home() {
               </CardGruop>
 
               {data.cards.map(card => (
-                <Link href={`/home/${card.id}`}>
+                <Link key={card.title} href={`/home/${card.id}`}>
                   <CardGruop>
                     <Card key={card.title} title={card.title} content={card.content} tags={card.tags} />
                   </CardGruop>

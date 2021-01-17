@@ -125,7 +125,7 @@ export default function Article() {
 
             <Tags>
               {myCard.tags.map(tag => (
-                <Tag color={tag.color}>
+                <Tag key={tag.content} color={tag.color}>
                   <TagText>{tag.content}</TagText>
                 </Tag>
               ))}
