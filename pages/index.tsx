@@ -39,37 +39,28 @@ export default function Home() {
             </Sidebar>
 
             <Content>
+
               <CardGruop>
                 <Link href="/article">
                   <Tag> #Feminismo </Tag>
                 </Link>
-                {/* <div /> */}
               </CardGruop>
-              <Link href="/home">
-                <CardGruop>
-                  <Card />
-                  {/* <Card /> */}
-                </CardGruop>
-              </Link>
+              {/* 
               <CardGruop>
                 <Card />
-                {/* <Card /> */}
               </CardGruop>
 
               <CardGruop>
                 <Card />
-                {/* <Card /> */}
               </CardGruop>
 
               <CardGruop>
                 <Card />
-                {/* <Card /> */}
               </CardGruop>
 
               <CardGruop>
                 <Card />
-
-              </CardGruop>
+              </CardGruop>  */}
 
 
             </Content>
