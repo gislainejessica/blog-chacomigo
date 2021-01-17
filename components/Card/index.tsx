@@ -14,16 +14,20 @@ type tag = {
 interface PropsCard {
   title: string;
   content: string;
-  tags: {
+  tags?: {
     content: string,
     color: string
   }[];
+  showImage?: boolean
 }
 
-const Card: React.FC<PropsCard> = ({ title = "TITULO", content = "CONTEUDO DO ARTIGO...CONTEUDO DO ARTIGO...", tags = [] }) => {
+const Card: React.FC<PropsCard> = ({
+  title = "TITULO",
+  content = "CONTEUDO DO ARTIGO...CONTEUDO DO ARTIGO...",
+  tags = [], showImage }) => {
   return (
     <Container>
-      <DivImage />
+      {!showImage && (<DivImage />)}
       <Wrapper>
         <Tags>
           {tags.map(tag => (

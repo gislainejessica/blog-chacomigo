@@ -11,6 +11,8 @@ export const Container = styled.div`
   margin-right: 1rem;
   margin-left: 4.4rem;
 
+  color: #4f4f4f;
+
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.04), 0px 4px 20px rgba(0, 0, 0, 0.08), 0px 20px 40px rgba(212, 217, 232, 0.15);
   
   :hover {
@@ -90,6 +92,15 @@ export const Title = styled.h1`
 
   margin-bottom: .8rem;
   font-family: 'Courier New', Courier, monospace;
+
+  font-weight: 600;
+  background: linear-gradient(-297.95deg, #004FC5 10.56%, #00C472 89.01%);
+  /* background: linear-gradient(-297.95deg, #1900FF 10.56%, #C86DD7 89.01%); */
+  background: linear-gradient(-297.95deg, #004FC5 10.56%, #C86DD7 89.01%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 0;
+  line-height: 50px;
 `;
 
 export const Tags = styled.div`

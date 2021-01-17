@@ -112,7 +112,6 @@ export const Content = styled.div`
   flex-direction: column;
   /* font-family: 'Courier New', Courier, monospace; */
   font-family: 'Inter', sans-serif;
-
 `;
 
 export const Sidebar = styled.div`
