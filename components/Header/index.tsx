@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link'
-import { Container, MaxWidth, Logo, SocialMedia, Links } from './styles';
+import { FiMenu } from 'react-icons/fi'
+import { Container, MaxWidth, Logo, SocialMedia, Links, MenuButton } from './styles';
 
 const Header: React.FC = () => {
   return (
@@ -24,6 +25,10 @@ const Header: React.FC = () => {
             Instagram
         </SocialMedia>
         </Links>
+
+        <MenuButton>
+          <FiMenu size={24} color="#fff" />
+        </MenuButton>
       </MaxWidth>
     </Container>
   );

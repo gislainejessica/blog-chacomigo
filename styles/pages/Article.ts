@@ -24,7 +24,15 @@ export const MaxWidth = styled.div`
   display: flex;
   align-items: flex-start;
   background: #fff;
-  width: 50%;
+  width: 70%;
+
+  @media(max-width: 880px){
+    width: 90%;
+  }
+
+  @media(min-width: 1280px){
+    width: 50%;
+  }
 
   p {
     font-size: 1.2rem;
@@ -39,7 +47,6 @@ export const MaxWidth = styled.div`
     padding-bottom: 1rem;
     font-family: 'Inter', sans-serif;
 
-    /* font-size: 44px; */
     font-weight: 600;
     /* background: linear-gradient(-297.95deg, #004FC5 10.56%, #00C472 89.01%); */
     background: linear-gradient(-297.95deg, #1900FF 10.56%, #C86DD7 89.01%);

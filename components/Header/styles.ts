@@ -39,6 +39,10 @@ export const Logo = styled.h1`
   color: #fff;
 `;
 
+export const MenuButton = styled.button`
+  background: none;
+`;
+
 export const Links = styled.div`
   display: flex;
   flex-direction: row;
