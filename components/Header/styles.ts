@@ -32,6 +32,8 @@ export const MaxWidth = styled.div`
   align-items: center;
 
   @media (max-width: 1280px){
+    padding: 0rem 2rem 0rem 2rem;
+
   }
 `;
 
@@ -41,6 +43,11 @@ export const Logo = styled.h1`
 
 export const MenuButton = styled.button`
   background: none;
+  display: none;
+
+  @media (max-width: 1280px){
+    display: block;
+  }
 `;
 
 export const Links = styled.div`
@@ -51,6 +58,7 @@ export const Links = styled.div`
     display: none;
   }
 `;
+
 
 export const SocialMedia = styled.button`
   color: #fff;

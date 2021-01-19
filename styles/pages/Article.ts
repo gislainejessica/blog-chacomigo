@@ -46,6 +46,7 @@ export const MaxWidth = styled.div`
     color: #444;
     padding-bottom: 1rem;
     font-family: 'Inter', sans-serif;
+    text-transform: capitalize;
 
     font-weight: 600;
     /* background: linear-gradient(-297.95deg, #004FC5 10.56%, #00C472 89.01%); */
