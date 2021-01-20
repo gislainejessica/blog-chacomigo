@@ -19,6 +19,8 @@ import {
   CardGruop
 } from '../../styles/pages/Home'
 
+import NewTag from '../../components/TagFind'
+
 import { useRouter } from 'next/router'
 
 
@@ -105,9 +107,10 @@ export default function Home() {
 
             <Content>
               <CardGruop>
-                <Link href={`/info/${category}`}>
-                  <Tag> #{category} </Tag>
-                </Link>
+                {/* <Link href={`/info/${category}`}> */}
+                {/* <Tag> #{category} </Tag> */}
+                <NewTag category={category}> #{category} </NewTag>
+                {/* </Link> */}
               </CardGruop>
 
               {data.cards.map(card => (
