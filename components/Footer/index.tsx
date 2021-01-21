@@ -2,34 +2,48 @@ import React from 'react';
 // import styles from '../../styles/Home.module.css'
 import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
 
-import { Container, Text, Links, Link, Redes, Line } from './styles'
+import { Container, Text, Links, Linke, Redes, Line } from './styles'
 
 const Footer: React.FC = () => {
   return (
     <Container>
       <Redes>
         <Links>
-          <Link>
-            Home
-        </Link>
-          <Link>
-            Código de Conduta
-        </Link>
-          <Link>
-            Politíca de privacidade
-        </Link>
-          <Link>
-            Termos de uso
-        </Link>
-          <Link>
-            Contato
-        </Link>
-          <Link>
-            FAQ
-        </Link>
-          <Link>
-            Sobre
-        </Link>
+          <div>
+            <Linke href="/blog/feminismo">
+              Home
+          </Linke>
+          </div>
+          <div>
+            <Linke href="/code-of-conduct">
+              Código de Conduta
+            </Linke>
+          </div>
+          <div>
+            <Linke href="/privacy">
+              Politíca de privacidade
+              </Linke>
+          </div>
+          <div>
+            <Linke href="/terms">
+              Termos de uso
+              </Linke>
+          </div>
+          <div>
+            <Linke href="/contact">
+              Contato
+              </Linke>
+          </div>
+          <div>
+            <Linke href="/faq">
+              FAQ
+              </Linke>
+          </div>
+          <div>
+            <Linke href="/about">
+              Sobre
+              </Linke>
+          </div>
         </Links>
       </Redes>
 
@@ -43,7 +57,7 @@ const Footer: React.FC = () => {
         <a href="https://twitter.com/chacomigobr">
           <FaTwitter size={24} />
         </a>
-        <a href="https://twitter.com/chacomigobr">
+        <a href="https://www.youtube.com/channel/UCZn_QEPoxB0yQHuSGIE87NQ/featured">
           <FaYoutube size={24} />
         </a>
       </Redes>
@@ -57,7 +71,6 @@ const Footer: React.FC = () => {
       </Text>
 
       <br />
-      {/* Feito e Publicado usando Next.  */}
       <Text>
         ChaComigo © 2020 - 2021.
       </Text>

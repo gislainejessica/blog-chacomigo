@@ -28,7 +28,7 @@ export const Tag = styled.button`
   width: 40%;
 
   font-weight: bold;
-  font-size: .7rem;
+  font-size: 1.2rem;
   text-align: center;
   font-family: 'Inter', sans-serif;
 

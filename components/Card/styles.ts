@@ -24,7 +24,6 @@ export const Container = styled.div`
     box-shadow: 0 0 29px 0 rgba(73, 73, 73, 0.5);
   }
 
-
   @media(max-width: 1280px) {
     margin-bottom: 0.6rem;
     margin-top: 0.6rem;
@@ -40,7 +39,6 @@ export const Container = styled.div`
 
 export const Wrapper = styled.div`
   background:#fff;
-  /* width: 15rem; */
   border-radius: 4px;
 
   display: flex;
@@ -48,9 +46,6 @@ export const Wrapper = styled.div`
   justify-content: flex-start;
   align-items: center;
   padding: .4rem;
-  
-
-  /* background: #ddf; */
 `;
 
 export const Text = styled.p`
@@ -73,7 +68,6 @@ export const Continue = styled.div`
 
   margin-left: .8rem;
   margin-right: .8rem;
-  /* text-align: right; */
 `;
 
 export const Content = styled.div`
@@ -81,7 +75,6 @@ export const Content = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
- 
 `;
 
 export const Title = styled.h1`
@@ -95,15 +88,12 @@ export const Title = styled.h1`
   font-family: 'Courier New', Courier, monospace;
 
   font-weight: 600;
-  background: linear-gradient(-297.95deg, #004FC5 10.56%, #00C472 89.01%);
-  /* background: linear-gradient(-297.95deg, #1900FF 10.56%, #C86DD7 89.01%); */
-  background: linear-gradient(-297.95deg, #004FC5 10.56%, #C86DD7 89.01%);
   background: linear-gradient(145deg, #813F80, #E26872);
 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin-bottom: 0;
-  line-height: 50px;
+  margin-bottom: .6rem;
+  line-height: 1.6rem;
 `;
 
 export const Tags = styled.div`
@@ -113,12 +103,10 @@ export const Tags = styled.div`
 `;
 
 export const DivImage = styled.div`
-  background-image: url(https://cdn.pixabay.com/photo/2016/11/29/05/45/astronomy-1867616_960_720.jpg);
   background-image: url(https://midias.agazeta.com.br/2020/10/13/710x388/a-uma-parcela-populacao-em-sua-maioria-preta-e-pobre-e-apenas-concedida-uma-cidadania-parcial-337879.jpg);
   width: 100%;
   filter: grayscale(100%);
   height: 'auto';
-  /* border-radius: 4px 0px 0px 4px; */
 
   @media(max-width: 580px) {
     display: none;

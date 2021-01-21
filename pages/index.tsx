@@ -41,28 +41,13 @@ export default function Home() {
             <Content>
 
               <CardGruop>
-                <Link href="/article">
+                <Link href="/info/feminismo">
                   <Tag> #Feminismo </Tag>
                 </Link>
               </CardGruop>
-              {/* 
               <CardGruop>
-                <Card />
+                <Card key={"Teste"} title={"Titulo"} content={"Conteúdo Conteúdo Conteúdo Conteúdo Conteúdo Conteúdo Conteúdo Conteúdo Conteúdo Conteúdo"} tags={[]} />
               </CardGruop>
-
-              <CardGruop>
-                <Card />
-              </CardGruop>
-
-              <CardGruop>
-                <Card />
-              </CardGruop>
-
-              <CardGruop>
-                <Card />
-              </CardGruop>  */}
-
-
             </Content>
           </Main>
         </MaxWidth>

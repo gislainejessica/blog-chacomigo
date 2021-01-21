@@ -32,7 +32,6 @@ export const Tag = styled.button`
   font-size: 1.2rem;
 
   :hover {
-    background: linear-gradient(to right, #1900FF, #C86DD7);
     background: linear-gradient(145deg, #813F80, #E26872);
     color: #fff;
   }

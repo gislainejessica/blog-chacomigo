@@ -2,18 +2,18 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   width: 100%;
-  min-height: 100vh;
+  height: 100%;
+  /* min-height: 100vh; */
   min-width: 28rem;
 
   display: flex;
-  /* flex: 1; */
   justify-content: center;
-  /* background: #f5f5f5; */
   background: #fff7f9;
 `;
 
 export const MaxWidth = styled.div`
   max-width: 1280px;
+  min-width: 28rem;
   flex-direction: column;
   margin-top: 6rem;
   margin-bottom: 4rem;
@@ -34,23 +34,44 @@ export const MaxWidth = styled.div`
     width: 50%;
   }
 
+  h1 {
+    font-size: 1.2rem;
+    color: #666;
+    line-height: 1.8rem;
+    font-family: 'Inter', sans-serif;
+  }
+
   p {
     font-size: 1.2rem;
     color: #666;
     line-height: 1.8rem;
     font-family: 'Inter', sans-serif;
+    text-align: left;
     
+    span {
+      color: #555;
+      font-weight: bold;
+    }
   }
+
+  h3 {
+    font-size: 1.2rem;
+    color: #666;
+    line-height: 1.8rem;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+  }
+
   h2 {
     font-size: 2rem;
     color: #444;
     padding-bottom: 1rem;
     font-family: 'Inter', sans-serif;
     text-transform: capitalize;
+    text-align: left;
 
+    width: 100%;
     font-weight: 600;
-    /* background: linear-gradient(-297.95deg, #004FC5 10.56%, #00C472 89.01%); */
-    background: linear-gradient(-297.95deg, #1900FF 10.56%, #C86DD7 89.01%);
     background: linear-gradient(145deg, #813F80, #E26872);
 
     -webkit-background-clip: text;

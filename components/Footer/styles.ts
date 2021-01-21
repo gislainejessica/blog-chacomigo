@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import Link from 'next/link'
 
 export const Container = styled.div`
   width: 100%;
@@ -49,19 +50,14 @@ export const Text = styled.p`
   }
 `;
 
-export const Link = styled.h3`
+export const Linke = styled(Link)`
   color: #202428;
   color: #fff;
-
-  font-size: 1.2rem;
-
-  text-align: center;
-  /* margin-top: .6rem; */
-  margin: 1.6rem;
 
   @media(max-width: 580px) {
     margin: 1.2rem;
     font-size: 1.0rem;
+    text-align: center;
   }
 `;
 
@@ -69,7 +65,15 @@ export const Links = styled.div`
   display: flex;
   
   @media(max-width: 858px) {
-    display: block
+    display: block;
+    text-align: center;
+  }
+
+  > div {
+    font-size: 1.2rem;
+
+    text-align: center;
+    margin: 1.6rem;
   }
 `;
 

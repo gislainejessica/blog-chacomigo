@@ -15,7 +15,8 @@ import {
   Imagem,
   TagText,
   TimeText,
-  Author
+  Author,
+  PostContent
 } from '../../styles/pages/Principal'
 
 import { useRouter } from 'next/router'
@@ -56,7 +57,28 @@ export default function Article() {
         id: '2',
         author: "Jéssica Almeida",
         title: "Como saber que o limite já passou?",
-        content: "Conteudo inicial mostrada para chamar atenção para a pessoa Conteudo inicial mostrada para chamar atenção para a pessoa...",
+        content: "O que é feminismo?, o 12.º número da colecção “Cadernos de Ciências Sociais” (direcção de Carlos Serra), \
+        convida os/as leitores/as a partilharem “a construção teórica do feminismo” (p. 11) através da leitura dos textos de \
+        Patrícia  Gomes (Guiné-Bissau), Debora Diniz (Brasil), Maria Helena Santos (Portugal) e Rosália Diogo (Brasil), \
+        cada um dos quais abordando a problemática da igualdade de género a partir de diferentes realidades socioculturais e políticas. \
+        Às autoras foi colocado o desafio de reflectirem sobre o feminismo (ou os feminismos) tendo em conta que este não é um movimento uno\
+         mas múltiplo na sua génese e nos seus objectivos.\
+        Esta é a crítica que perpassa os quatro artigos: há outros feminismos além daquele que surgiu no mundo ocidental no século XVIII, \
+        que trilharam um outro caminho apesar de terem o mesmo fim – a promoção da igualdade de direitos entre homens e mulheres.O que é feminismo?, o 12.º número da colecção “Cadernos de Ciências Sociais” (direcção de Carlos Serra), \
+        convida os/as leitores/as a partilharem “a construção teórica do feminismo” (p. 11) através da leitura dos textos de \
+        Patrícia  Gomes (Guiné-Bissau), Debora Diniz (Brasil), Maria Helena Santos (Portugal) e Rosália Diogo (Brasil), \
+        cada um dos quais abordando a problemática da igualdade de género a partir de diferentes realidades socioculturais e políticas. \
+        Às autoras foi colocado o desafio de reflectirem sobre o feminismo (ou os feminismos) tendo em conta que este não é um movimento uno\
+         mas múltiplo na sua génese e nos seus objectivos.\
+        Esta é a crítica que perpassa os quatro artigos: há outros feminismos além daquele que surgiu no mundo ocidental no século XVIII, \
+        que trilharam um outro caminho apesar de terem o mesmo fim – a promoção da igualdade de direitos entre homens e mulheres.O que é feminismo?, o 12.º número da colecção “Cadernos de Ciências Sociais” (direcção de Carlos Serra), \
+        convida os/as leitores/as a partilharem “a construção teórica do feminismo” (p. 11) através da leitura dos textos de \
+        Patrícia  Gomes (Guiné-Bissau), Debora Diniz (Brasil), Maria Helena Santos (Portugal) e Rosália Diogo (Brasil), \
+        cada um dos quais abordando a problemática da igualdade de género a partir de diferentes realidades socioculturais e políticas. \
+        Às autoras foi colocado o desafio de reflectirem sobre o feminismo (ou os feminismos) tendo em conta que este não é um movimento uno\
+         mas múltiplo na sua génese e nos seus objectivos.\
+        Esta é a crítica que perpassa os quatro artigos: há outros feminismos além daquele que surgiu no mundo ocidental no século XVIII, \
+        que trilharam um outro caminho apesar de terem o mesmo fim – a promoção da igualdade de direitos entre homens e mulheres.",
         tags: [{
           content: "Power",
           color: "#ff5474"
@@ -86,17 +108,19 @@ export default function Article() {
   }
   const router = useRouter()
   const { number } = router.query
-  // const cards = data.cards
-  // const myCard = data.cards.find(card => {
-  //   const { number } = router.query
-  //   return card.id == number
-  // })
 
   const myCard = data.cards.find(card => card.id == number) || {
     id: '2',
     author: "Jéssica Almeida",
     title: "Como saber que o limite já passou?",
-    content: "Conteudo inicial mostrada para chamar atenção para a pessoa Conteudo inicial mostrada para chamar atenção para a pessoa...",
+    content: "O que é feminismo?, o 12.º número da colecção “Cadernos de Ciências Sociais” (direcção de Carlos Serra), \
+    convida os/as leitores/as a partilharem “a construção teórica do feminismo” (p. 11) através da leitura dos textos de \
+    Patrícia  Gomes (Guiné-Bissau), Debora Diniz (Brasil), Maria Helena Santos (Portugal) e Rosália Diogo (Brasil), \
+    cada um dos quais abordando a problemática da igualdade de género a partir de diferentes realidades socioculturais e políticas. \
+    Às autoras foi colocado o desafio de reflectirem sobre o feminismo (ou os feminismos) tendo em conta que este não é um movimento uno\
+     mas múltiplo na sua génese e nos seus objectivos.\
+    Esta é a crítica que perpassa os quatro artigos: há outros feminismos além daquele que surgiu no mundo ocidental no século XVIII, \
+    que trilharam um outro caminho apesar de terem o mesmo fim – a promoção da igualdade de direitos entre homens e mulheres.",
     tags: [{
       content: "Power",
       color: "#ff5474"
@@ -106,7 +130,6 @@ export default function Article() {
       color: "#7d47d4"
     }]
   }
-  // console.log(data.cards.find(card => card.id === 1))
 
   return (
     <>
@@ -137,54 +160,18 @@ export default function Article() {
               />
             </Content>
 
-            <Title> {myCard.title} </Title>
+            <PostContent>
+              <Title> {myCard.title} </Title>
 
-            <Author> por Gislaine Jéssica há 3 dias </Author>
+              <Author> por {myCard.author} há 3 dias </Author>
 
-            <TimeText> 2min de leitura </TimeText>
+              <TimeText> 2min de leitura </TimeText>
 
+              <Text>
+                {myCard.content}
+              </Text>
 
-            <Text>
-              {myCard.content}
-            </Text>
-
-            {/* <Text>
-              Na Revolução Francesa (1789) a “Declaração dos Direitos do Homem e do Cidadão”, escrito no ano da Revolução,
-              foi combatida pela “Declaração dos Direitos da Mulher e da Cidadã”, escrito pela feminista
-              francesa Olympe de Gouges (1748-1793) em 1791.
-            </Text> */}
-
-            {/* <br />
-            <Text>
-              No documento, ela criticava a Declaração da Revolução, pois era somente aplicada aos homens. Além disso,
-              alertava para a autoridade masculina e a importância das mulheres e da igualdade de direitos.
-            </Text>
-            <br />
-            <Text>
-              Por esse motivo, a revolucionária foi executada em Paris, dia 3 de novembro de 1793.
-              No entanto, sua morte, considerada um marco do feminismo no mundo, fez surgir diversos movimentos feministas posteriores.
-            </Text>
-            <br />
-            <Text>
-              Entretanto, foi a partir da Revolução Industrial no século XIX, que esse panorama muda de maneira substancial.
-              As mulheres já começam a trabalhar nas fábricas, fazendo parte da força econômica do país.
-            </Text>
-            <br />
-            <Text>
-              Assim, aos poucos, os movimentos feministas espalhados pelo mundo foram tomando corpo e cada vez mais lutando
-              e conquistando diversos direitos reivindicados pelas mulheres (direito à educação, voto, contrato, propriedade,
-              divórcio, igualdade de salários, aborto, etc.).
-            </Text>
-            <br />
-            <Text>
-              Nas culturas ocidentais, o movimento feminista passou a adquirir maior visibilidade a partir do século XX.
-            </Text>
-            <br />
-            <Text>
-              Em épocas mais distantes seria impensável ter uma presidente mulher governando o país, ou mesmo,
-              figuras femininas atuando e se consagrando em diversos campos: culturas, artes, economia, política, etc.
-            </Text> */}
-
+            </PostContent>
           </Main>
         </MaxWidth>
       </Container>

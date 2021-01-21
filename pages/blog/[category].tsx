@@ -4,10 +4,10 @@ import Link from 'next/link'
 import Menu from '../../components/Header'
 import Footer from '../../components/Footer'
 
+import Card from '../../components/Card'
+import About from '../../components/About'
 import Categories from '../../components/Categories'
 import Newsletter from '../../components/Newsletter'
-import About from '../../components/About'
-import Card from '../../components/Card'
 
 import {
   Container,
@@ -44,7 +44,8 @@ export default function Home() {
       {
         id: '1',
         title: "O que o Feminismo afinal?",
-        content: "Conteudo inicial mostrada para chamar atenção para a pessoa Conteudo inicial mostrada para chamar atenção para a pessoa...",
+        content: "O que é feminismo?, o 12.º número da colecção “Cadernos de Ciências Sociais” (direcção de Carlos Serra), \
+        convida os/as leitores/as a partilharem ...",
         tags: [{
           content: "Feminismo",
           color: "#7d47d4"
@@ -99,6 +100,7 @@ export default function Home() {
       <Container>
         <MaxWidth>
           <Main>
+
             <Sidebar>
               <Categories />
               <About />
@@ -107,10 +109,7 @@ export default function Home() {
 
             <Content>
               <CardGruop>
-                {/* <Link href={`/info/${category}`}> */}
-                {/* <Tag> #{category} </Tag> */}
                 <NewTag category={category}> #{category} </NewTag>
-                {/* </Link> */}
               </CardGruop>
 
               {data.cards.map(card => (
@@ -120,8 +119,8 @@ export default function Home() {
                   </CardGruop>
                 </Link>
               ))}
-
             </Content>
+
           </Main>
         </MaxWidth>
       </Container>

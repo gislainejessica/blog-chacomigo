@@ -16,19 +16,17 @@ export const Container = styled.div`
   min-height: 100vh;
   min-width: 28rem;
 
-  /* background: #f6f8fa; */
   background: #fff7f9;
-  /* background: #333322; */
 
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  /* align-self: center; */
 `;
+
+export const PostContent = styled.div``;
 
 export const MaxWidth = styled.div`
   max-width: 1280px;
-  /* width: 50%; */
   width: 60%;
   padding: 3.2rem 3.2rem 3.2rem 3.2rem;
 
@@ -38,11 +36,6 @@ export const MaxWidth = styled.div`
   margin-top: 6.4rem;
   margin-bottom: 3.2rem;
   border-radius: .8rem;
-  /* background: #008335; */
-
-  /* @media (min-width: 1280px){
-    width: 70%;
-  } */
 
   @media (max-width: 1280px){
     width: 80%;
@@ -63,7 +56,6 @@ export const Main = styled.main`
   justify-content: center;
   align-items: flex-start;
   
-
   border-radius: .6rem;
   font-family: 'Courier New', Courier, monospace;
 `;
@@ -111,7 +103,6 @@ export const TimeText = styled.h2`
   font-size: 1.0rem;
   margin-bottom: 1.6rem;
   font-family: 'Inter', sans-serif;
-
 `;
 
 export const Tags = styled.div` 
@@ -133,7 +124,6 @@ export const Tag = styled.div<Props>`
   padding: 0.4rem 1.6rem;
   margin-right: .8rem;
   border: 1px solid #84BBE3;
-  /* border: 1px solid #4150f5; */
 
   display: flex;
   justify-content: center;
@@ -159,10 +149,7 @@ export const Title = styled.h1`
   text-align: center;
 
   font-weight: 600;
-  background: linear-gradient(-297.95deg, #004FC5 10.56%, #00C472 89.01%);
-  /* background: linear-gradient(-297.95deg, #1900FF 10.56%, #C86DD7 89.01%); */
   background: linear-gradient(-297.95deg, #813F80 10.56%, #E26872 89.01%);
-   /* background: linear-gradient(145deg, #813F80, #E26872); */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 0;

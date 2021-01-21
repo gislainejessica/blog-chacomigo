@@ -15,6 +15,11 @@ const Categories: React.FC = () => {
         <h3>Categorias </h3>
       </Header>
       <Content>
+        <Link href="/blog/feminismo">
+          <Text selected={category == "feminismo" ? true : false}>
+            #Feminismo
+          </Text>
+        </Link>
         <Link href="/blog/desconstrucao">
           <Text selected={category == "desconstrucao" ? true : false}>
             #Desconstrução
@@ -48,11 +53,6 @@ const Categories: React.FC = () => {
         <Link href="/blog/mulher">
           <Text selected={category == "mulher" ? true : false}>
             #Mulher
-          </Text>
-        </Link>
-        <Link href="/blog/feminismo">
-          <Text selected={category == "feminismo" ? true : false}>
-            #Feminismo
           </Text>
         </Link>
         <Link href="/blog/auto_estima">
