@@ -48,7 +48,7 @@ const Footer: React.FC = () => {
       </Redes>
 
       <Redes>
-        <a href="https://www.instagram.com/chacomigobr/">
+        <a href="https://www.facebook.com/ChaComigo-103978595029145">
           <FaFacebook size={24} />
         </a>
         <a href="https://www.instagram.com/chacomigobr/">

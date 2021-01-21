@@ -15,17 +15,25 @@ const Header: React.FC = () => {
 
         <Links>
           <SocialMedia>
-            Youtube
-        </SocialMedia>
+            <a href="https://www.youtube.com/channel/UCZn_QEPoxB0yQHuSGIE87NQ/featured">
+              Youtube
+            </a>
+          </SocialMedia>
           <SocialMedia>
-            Facebook
-        </SocialMedia>
+            <a href="https://www.facebook.com/ChaComigo-103978595029145">
+              Facebook
+            </a>
+          </SocialMedia>
           <SocialMedia>
-            Twitter
-        </SocialMedia>
+            <a href="https://twitter.com/chacomigobr">
+              Twitter
+            </a>
+          </SocialMedia>
           <SocialMedia>
-            Instagram
-        </SocialMedia>
+            <a href="https://www.instagram.com/chacomigobr/">
+              Instagram
+            </a>
+          </SocialMedia>
         </Links>
 
         <MenuButton>
