@@ -6,7 +6,7 @@ import Footer from '../components/Footer'
 import { Container, MaxWidth } from '../styles/pages/Article'
 import { useRouter } from 'next/router'
 
-export default function Politica() {
+export default function Privacy() {
   return (
     <>
       <Head>

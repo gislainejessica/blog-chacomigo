@@ -5,7 +5,7 @@ import Footer from '../components/Footer'
 
 import { Container, MaxWidth } from '../styles/pages/Article'
 
-export default function Contato() {
+export default function Contact() {
   return (
     <>
       <Head>

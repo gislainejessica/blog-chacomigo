@@ -24,7 +24,7 @@ import NewTag from '../../components/TagFind'
 import { useRouter } from 'next/router'
 
 
-export default function Home() {
+export default function Blog() {
 
   const data = {
     cards: [

@@ -21,7 +21,7 @@ import {
 
 import { useRouter } from 'next/router'
 
-export default function Article() {
+export default function Home() {
 
   const data = {
     cards: [

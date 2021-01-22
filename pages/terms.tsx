@@ -6,7 +6,7 @@ import Footer from '../components/Footer'
 import { Container, MaxWidth } from '../styles/pages/Article'
 import { useRouter } from 'next/router'
 
-export default function About() {
+export default function Terms() {
   const router = useRouter()
   return (
     <>

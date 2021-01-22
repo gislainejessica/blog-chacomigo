@@ -5,7 +5,7 @@ import Footer from '../components/Footer'
 
 import { Container, MaxWidth } from '../styles/pages/Article'
 
-export default function Conduta() {
+export default function CodeConduct() {
   return (
     <>
       <Head>

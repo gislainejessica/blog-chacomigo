@@ -7,7 +7,7 @@ import Card from '../../components/Card'
 import { Container, MaxWidth } from '../../styles/pages/Article'
 import { useRouter } from 'next/router'
 
-export default function Articles() {
+export default function Info() {
   const router = useRouter()
   const { detail } = router.query
   const data = {
