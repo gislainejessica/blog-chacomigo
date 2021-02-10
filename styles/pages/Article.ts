@@ -29,7 +29,10 @@ export const MaxWidth = styled.div`
   width: 70%;
 
   @media(max-width: 880px){
-    width: 90%;
+    padding: 2rem 1rem 2rem 1rem;
+    width: 100%;
+    margin-top: 4rem;
+    margin-bottom: 0rem;
   }
 
   @media(min-width: 1280px){
@@ -50,6 +53,10 @@ export const MaxWidth = styled.div`
     font-family: 'Inter', sans-serif;
     text-align: left;
     width:80%;
+   
+    @media(max-width: 880px){
+      width: 95%;
+    }
     
     span {
       color: #555;
