@@ -24,10 +24,12 @@ export default function About() {
 
             A ChaComigo nasceu do desejo de concientizar as pessoas sobre violência de genero.
             Somos uma comunidade de mulheres, homens e diversos outros gêneros,
-            pessoas que acreditam na necessária difusão de ações pelos variados
-            setores da sociedade para o enfrentamento da violência.
-            Queremos fazer parte da mudança e contribuir para uma sociedade mais consciente.
+            pessoas que acreditam na necessidade de difundir ações através dos diversos
+            setores da sociedade com o objetivo de enfrentar a violência de gênero.
             <br />
+            <br />
+            Queremos fazer parte da mudança e contribuir para uma sociedade mais consciente.
+
             Não fique fora dessa, você também pode fazer a diferença!
 
           </p>

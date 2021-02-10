@@ -20,8 +20,38 @@ export default function Privacy() {
         <MaxWidth>
           <h2> Politica de Privacidade </h2>
           <p>
-            {/* "Desconstrução Ação de desconstruir, de desfazer a construção de alguma coisa: a desconstrução de um templo budista. [Por Extensão] Ato ou efeito de causar danos em algo intocável: desconstrução da boa imagem do ator. [Figurado] Desfazer o que está construído: desconstrução do machismo na sociedade contemporânea. [Filosofia] Teoria que se pauta no estudo e na interpretação de uma obra partindo da premissa de que toda linguagem é metafórica,sendo impossível determinar o sentido real do discurso; desconstrucionismo." */}
-          </p>
+            A sua privacidade é importante para nós. É política do ChaComigo respeitar a sua privacidade em relação a qualquer informação sua que possamos coletar no site ChaComigo, e outros sites que possuímos e operamos.
+            <br />
+            Solicitamos informações pessoais apenas quando realmente precisamos delas para lhe fornecer um serviço. Fazemo-lo por meios justos e legais, com o seu conhecimento e consentimento. Também informamos por que estamos coletando e como será usado.
+            <br />
+            Apenas retemos as informações coletadas pelo tempo necessário para fornecer o serviço solicitado. Quando armazenamos dados, protegemos dentro de meios comercialmente aceitáveis ​​para evitar perdas e roubos, bem como acesso, divulgação, cópia, uso ou modificação não autorizados.
+            <br />
+            Não compartilhamos informações de identificação pessoal publicamente ou com terceiros, exceto quando exigido por lei.
+            <br />
+            O nosso site pode ter links para sites externos que não são operados por nós. Esteja ciente de que não temos controle sobre o conteúdo e práticas desses sites e não podemos aceitar responsabilidade por suas respectivas políticas de privacidade.
+            <br />
+            Você é livre para recusar a nossa solicitação de informações pessoais, entendendo que talvez não possamos fornecer alguns dos serviços desejados.
+            <br />
+            O uso continuado de nosso site será considerado como aceitação de nossas práticas em torno de privacidade e informações pessoais.
+            Se você tiver alguma dúvida sobre como lidamos com dados do usuário e informações pessoais, entre em contato conosco.
+            <br />
+            <br />
+            <h4> Compromisso do Usuário</h4>
+            O usuário se compromete a fazer uso adequado dos conteúdos e da informação que o ChaComigo oferece no site e com caráter enunciativo, mas não limitativo:
+            <br />
+            <br />
+            A) Não se envolver em atividades que sejam ilegais ou contrárias à boa fé a à ordem pública;
+            <br />
+            B) Não difundir propaganda ou conteúdo de natureza racista, xenofóbica, ou sobre cassinos, apostas desportivas (ex.: Betway), jogos de sorte e azar, qualquer tipo de pornografia ilegal, de apologia ao terrorismo ou contra os direitos humanos;
+            <br />
+            C) Não causar danos aos sistemas físicos (hardwares) e lógicos (softwares) do ChaComigo, de seus fornecedores ou terceiros, para introduzir ou disseminar vírus informáticos ou quaisquer outros sistemas de hardware ou software que sejam capazes de causar danos anteriormente mencionados.
+            <br />
+            <br />
+            <h4> Mais informações </h4>
+            Esperemos que esteja esclarecido e, como mencionado anteriormente, se houver algo que você não tem certeza se precisa ou não, geralmente é mais seguro deixar os cookies ativados, caso interaja com um dos recursos que você usa em nosso site.
+            <br />
+            <br />
+            Esta política é efetiva a partir de Fevereiro/2021. </p>
         </MaxWidth>
       </Container>
 
