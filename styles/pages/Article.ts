@@ -22,7 +22,9 @@ export const MaxWidth = styled.div`
 
   padding: 4rem 2rem 4rem 2rem;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: center;
+
   background: #fff;
   width: 70%;
 
@@ -42,11 +44,12 @@ export const MaxWidth = styled.div`
   }
 
   p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: #666;
     line-height: 1.8rem;
     font-family: 'Inter', sans-serif;
     text-align: left;
+    width:80%;
     
     span {
       color: #555;
@@ -70,7 +73,7 @@ export const MaxWidth = styled.div`
     text-transform: capitalize;
     text-align: left;
 
-    width: 100%;
+    width: 80%;
     font-weight: 600;
     background: linear-gradient(145deg, #813F80, #E26872);
 
