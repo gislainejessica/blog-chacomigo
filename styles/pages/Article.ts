@@ -55,9 +55,9 @@ export const MaxWidth = styled.div`
     width:80%;
    
     @media(max-width: 880px){
-      width: 95%;
+      width: 90%;
     }
-    
+
     span {
       color: #555;
       font-weight: bold;
@@ -80,7 +80,7 @@ export const MaxWidth = styled.div`
     text-transform: capitalize;
     text-align: left;
 
-    width: 80%;
+    /* width: 80%; */
     font-weight: 600;
     background: linear-gradient(145deg, #813F80, #E26872);
 
