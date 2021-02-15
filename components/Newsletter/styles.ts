@@ -30,7 +30,8 @@ export const Press = styled.button`
   font-size: 1.0rem;
   font-weight: normal;
 
-  color: #3C96CA;
+  color: #813F80;
+  color: #384950;
   background:#fff;
   background: linear-gradient(90deg, #ffff,  #f3f2ef);
 
@@ -50,9 +51,11 @@ export const Press = styled.button`
 
 
 export const Input = styled.input`
-  background: #384953;
-  border: 2px solid #3C96CA;
-  border-radius: .8rem;
+  /* background: #384953; */
+  background: #384950;
+  /* background: #E08388; */
+  border: 1px solid #fff;
+  border-radius: .4rem;
   height: 2.5rem;
   width: 100%;
   margin: 1rem ;
