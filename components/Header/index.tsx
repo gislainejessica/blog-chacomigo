@@ -1,7 +1,8 @@
 import React from 'react';
 import Link from 'next/link'
 import { FiMenu } from 'react-icons/fi'
-import { Container, MaxWidth, Logo, SocialMedia, Links, MenuButton } from './styles';
+import { Container, MaxWidth, Logo, SocialMedia, Links, MenuButton, MobileMenu } from './styles';
+import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
 
 // import Menu from '../Menu'
 
@@ -12,12 +13,6 @@ const Header: React.FC = () => {
     setOpened(!opened)
     console.log(opened)
   }
-
-  React.useEffect(() => {
-    // setOpened(false)
-    console.log(opened)
-
-  }, [opened])
 
   return (
     <Container>
@@ -54,30 +49,80 @@ const Header: React.FC = () => {
         </MenuButton>
 
         {opened && (
-          <div style={{
+          <MobileMenu style={{
             backgroundColor: 'white',
             // display: 'none',
             position: 'fixed',
             width: '100%',
             height: '100%',
-            left: '10px',
-            top: '70px',
-            color: 'black'
+            left: '0px',
+            top: '4rem',
+            color: 'black',
+            display: 'flex',
+            flex: 1,
+            justifyContent: 'space-between',
+            padding: '1rem',
           }}>
+            <div >
 
-            <h3> Home</h3>
-            <h3> Código de Conduta</h3>
-            <h3> Politíca de privacidade</h3>
-            <h3> Termos de uso</h3>
-            <h3> Contato</h3>
-            <h3> FAQ</h3>
-            <h3> Sobre</h3>
+              <div>
+                <Link href="/blog/feminismo">
+                  Home
+                </Link>
+              </div>
+              <div>
+                <Link href="/code-of-conduct">
+                  Código de Conduta
+                </Link>
+              </div>
+              <div>
+                <Link href="/privacy">
+                  Politíca de privacidade
+                </Link>
+              </div>
+              <div>
+                <Link href="/terms">
+                  Termos de uso
+                </Link>
+              </div>
+              <div>
+                <Link href="/contact">
+                  Contato
+                </Link>
+              </div>
+              <div>
+                <Link href="/faq">
+                  FAQ
+                </Link>
+              </div>
+              <div>
+                <Link href="/about">
+                  Sobre
+              </Link>
+              </div>
+              <h2> Receba notificações</h2>
 
-            <p> Youtube </p>
-            <p> Instagram </p>
-            <p> Facebook </p>
-            <p> Twitter </p>
-          </div>
+              <a href="https://www.facebook.com/ChaComigo-103978595029145">
+                <FaFacebook size={24} />
+              </a>
+              <a href="https://www.instagram.com/chacomigobr/">
+                <FaInstagram size={24} />
+              </a>
+              <a href="https://twitter.com/chacomigobr">
+                <FaTwitter size={24} />
+              </a>
+              <a href="https://www.youtube.com/channel/UCZn_QEPoxB0yQHuSGIE87NQ/featured">
+                <FaYoutube size={24} />
+              </a>
+
+
+            </div>
+
+            <MenuButton onClick={openMenu} style={{ width: 20, height: 20 }}>
+              <p style={{ fontSize: 20 }}> x </p>
+            </MenuButton>
+
+          </MobileMenu>
         )}
 
       </MaxWidth>

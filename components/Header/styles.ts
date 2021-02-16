@@ -50,6 +50,13 @@ export const MenuButton = styled.button`
   }
 `;
 
+export const xButton = styled.button`
+  background: none;
+  width: 10rem;
+  height: 10rem;
+  top: 0;
+`;
+
 export const Links = styled.div`
   display: flex;
   flex-direction: row;
@@ -59,7 +66,6 @@ export const Links = styled.div`
   }
 `;
 
-
 export const SocialMedia = styled.button`
   color: #fff;
   margin: 0 0.5rem;
@@ -67,4 +73,17 @@ export const SocialMedia = styled.button`
   border: none;
 `;
 
-
+export const MobileMenu = styled.div`
+  background: '#fff';
+  // display: 'none';
+  position: 'fixed';
+  width: '100%';
+  height: '100%';
+  left: '0px';
+  top: '4rem';
+  color: 'black';
+  display: 'flex';
+  flex: 1;
+  justify-content: 'space-between';
+  padding: '1rem';
+`;
