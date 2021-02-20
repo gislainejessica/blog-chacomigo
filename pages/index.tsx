@@ -16,7 +16,8 @@ import {
   Main,
   Content,
   Sidebar,
-  CardGruop
+  CardGruop,
+  CategoryPicker
 } from '../styles/pages/Home'
 
 export default function Home() {
@@ -40,11 +41,13 @@ export default function Home() {
 
             <Content>
 
-              <CardGruop>
-                <Link href="/info/feminismo">
-                  <Tag> #Feminismo </Tag>
+              <CategoryPicker>
+                <Link href="/info/machismo">
+                  <Tag> #Machismo </Tag>
                 </Link>
-              </CardGruop>
+              </CategoryPicker>
+
+
               <CardGruop>
                 <Card key={"Teste"} title={"Titulo"} content={"Conteúdo Conteúdo Conteúdo Conteúdo Conteúdo Conteúdo Conteúdo Conteúdo Conteúdo Conteúdo"} tags={[]} />
               </CardGruop>

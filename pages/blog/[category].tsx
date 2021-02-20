@@ -16,7 +16,9 @@ import {
   Main,
   Content,
   Sidebar,
-  CardGruop
+  CardGruop,
+  Picker,
+  TagGroup
 } from '../../styles/pages/Home'
 
 import NewTag from '../../components/TagFind'
@@ -108,9 +110,18 @@ export default function Blog() {
             </Sidebar>
 
             <Content>
-              <CardGruop>
-                <NewTag category={category}> #{category} </NewTag>
-              </CardGruop>
+              <TagGroup>
+                <NewTag category={category}>
+                  #{category}
+                </NewTag>
+                <Picker>
+                  <p> Feminismo </p>
+                  <p> v </p>
+                </Picker>
+
+              </TagGroup>
+
+
 
               {data.cards.map(card => (
                 <Link key={card.title} href={`/home/${card.id}`}>

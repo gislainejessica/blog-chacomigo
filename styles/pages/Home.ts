@@ -57,6 +57,54 @@ export const MaxWidth = styled.div`
   }
 `;
 
+
+export const Picker = styled.div`
+  display: none;
+  flex-direction: row;
+  background:  #d444;
+  align-items: flex-start;
+
+  padding-bottom: 3.2rem ;
+  padding-bottom: 2.0rem ;
+  
+  width: 100%;
+  height: 1.7rem;
+  border: 2px solid #d355 ;
+
+  margin-left: 1rem;
+
+  @media(max-width: 1280px) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+
+    padding-bottom: 0;
+    padding: 0.4rem;
+    /* margin: .5rem; */
+  }
+`;
+
+export const CategoryPicker = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+
+  padding-bottom: 3.2rem ;
+  padding-bottom: 2.0rem ;
+
+  @media(max-width: 1280px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    padding-bottom: 0;
+    padding: 0;
+  }
+`;
+
 export const CardGruop = styled.div`
   display: flex;
   flex-direction: row;
@@ -74,6 +122,26 @@ export const CardGruop = styled.div`
     padding-bottom: 0;
     padding: 0;
   }
+`;
+
+
+export const TagGroup = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+
+  /* padding-bottom: 3.2rem ; */
+  padding-bottom: 2.0rem ;
+
+  /* @media(max-width: 1280px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    padding-bottom: 0;
+    padding: 0;
+  } */
 `;
 
 export const Main = styled.main`
