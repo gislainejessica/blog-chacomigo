@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
 
 import Nav from '../../components/Header'
 import Footer from '../../components/Footer'
@@ -16,7 +17,8 @@ import {
   TagText,
   TimeText,
   Author,
-  PostContent
+  PostContent,
+  Comment
 } from '../../styles/pages/Principal'
 
 import { useRouter } from 'next/router'
@@ -141,7 +143,21 @@ export default function Home() {
       <Nav />
 
       <Container>
+        <Comment>
+          <p> Curtir </p>
+          <FaYoutube size={24} />
+          <p> Comentar </p>
+          <FaYoutube size={24} />
+          <p> Compartilhar </p>
+          <FaYoutube size={24} />
+          <p> Arquivar </p>
+          <FaYoutube size={24} />
+          <p> Denunciar </p>
+          <FaYoutube size={24} />
+        </Comment>
+
         <MaxWidth>
+
           <Main>
 
             <Tags>

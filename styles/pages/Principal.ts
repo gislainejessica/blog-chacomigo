@@ -23,6 +23,26 @@ export const Container = styled.div`
   align-items: flex-start;
 `;
 
+export const Comment = styled.div`
+  width: 5rem;
+  min-height: 80vh;
+
+  /* min-width: 28rem; */
+
+  /* background: #2233f9; */
+  top: 8rem;
+  left: 0;
+
+  display: block;
+  justify-content: center;
+  position: relative;
+  align-items: flex-start;
+
+  h1 { 
+    color: black;
+  }
+`;
+
 export const PostContent = styled.div``;
 
 export const MaxWidth = styled.div`
@@ -33,6 +53,7 @@ export const MaxWidth = styled.div`
   display: flex;
   align-items: flex-start;
   background: #fff;
+  /* background: #444; */
   margin-top: 6.4rem;
   margin-bottom: 3.2rem;
   border-radius: .8rem;
