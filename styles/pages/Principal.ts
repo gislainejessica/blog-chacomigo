@@ -38,8 +38,17 @@ export const Comment = styled.div`
   position: relative;
   align-items: flex-start;
 
-  h1 { 
-    color: black;
+  div { 
+    margin: 1rem 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  br { 
+    margin: 2rem;
   }
 `;
 

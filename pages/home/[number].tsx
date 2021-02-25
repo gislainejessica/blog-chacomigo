@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
+import { FcLike, FcBookmark, FcShare, FcCollaboration, FcHighPriority } from 'react-icons/fc';
 
 import Nav from '../../components/Header'
 import Footer from '../../components/Footer'
@@ -144,16 +145,31 @@ export default function Home() {
 
       <Container>
         <Comment>
-          <p> Curtir </p>
-          <FaYoutube size={24} />
-          <p> Comentar </p>
-          <FaYoutube size={24} />
-          <p> Compartilhar </p>
-          <FaYoutube size={24} />
-          <p> Arquivar </p>
-          <FaYoutube size={24} />
-          <p> Denunciar </p>
-          <FaYoutube size={24} />
+          {/* <p> Curtir </p> */}
+          <div>
+            <FcLike size={24} />
+            <span> 3 </span>
+          </div>
+          {/* <p> Comentar </p> */}
+          {/* <div>
+            <FcCollaboration size={24} />
+            <span> 1 </span>
+          </div> */}
+          {/* <p> Compartilhar </p> */}
+          <div>
+            <FcShare size={24} />
+            <span> 0 </span>
+          </div>
+          {/* <p> Arquivar </p> */}
+          <div>
+            <FcBookmark size={24} />
+            <span> 13 </span>
+          </div>
+          {/* <p> Denunciar </p> */}
+          <div>
+            <FcHighPriority size={24} />
+            <span> 0 </span>
+          </div>
         </Comment>
 
         <MaxWidth>
