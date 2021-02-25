@@ -166,10 +166,10 @@ export default function Home() {
             <span> 13 </span>
           </div>
           {/* <p> Denunciar </p> */}
-          <div>
+          {/* <div>
             <FcHighPriority size={24} />
             <span> 0 </span>
-          </div>
+          </div> */}
         </Comment>
 
         <MaxWidth>

@@ -40,15 +40,28 @@ export const Comment = styled.div`
 
   div { 
     margin: 1rem 0;
+    width: 60px;
+    padding: .5rem;
+
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    :hover {
+      background: rgb(226, 104, 114, .15);
+      border-radius: 30px;
+      /* padding: .5rem; */
+    }
   }
 
   br { 
     margin: 2rem;
+  }
+
+  @media (max-width: 758px){
+    display: none;
   }
 `;
 
