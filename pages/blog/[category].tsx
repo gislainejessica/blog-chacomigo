@@ -27,7 +27,7 @@ import { useRouter } from 'next/router'
 
 
 export default function Blog() {
-
+  const tags = ["Machismo", "Feminismo", "Deconstrução", "Violência", "Revolução", "Políticas Públicas", "Psicologia", "Mulher", "Auto-Estima"]
   const data = {
     cards: [
       {
@@ -115,8 +115,8 @@ export default function Blog() {
                   #{category}
                 </NewTag>
                 <Picker>
-                  <p> Feminismo </p>
-                  <p> v </p>
+                  <p> {category} </p>
+                  <p>  </p>
                 </Picker>
 
               </TagGroup>
