@@ -18,12 +18,14 @@ import {
   Sidebar,
   CardGruop,
   Picker,
-  TagGroup
+  TagGroup,
+  TagsShow
 } from '../../styles/pages/Home'
 
 import NewTag from '../../components/TagFind'
 
 import { useRouter } from 'next/router'
+import { useState } from 'react'
 
 
 export default function Blog() {
@@ -87,6 +89,7 @@ export default function Blog() {
       },
     ],
   }
+  const [tagsOpened, setOpened] = useState(false)
   const router = useRouter()
   const { category } = router.query
 
@@ -114,10 +117,41 @@ export default function Blog() {
                 <NewTag category={category}>
                   #{category}
                 </NewTag>
-                <Picker>
+                <Picker onClick={() => setOpened(!tagsOpened)} >
                   <p> {category} </p>
                   <p>  </p>
                 </Picker>
+
+                {tagsOpened && (
+                  <TagsShow>
+                    <Link href="/blog/feminismo">
+                      <p> #Feminismo </p>
+                    </Link>
+                    <Link href="/blog/desconstrucao">
+                      <p> #Desconstrução </p>
+                    </Link>
+                    <Link href="/blog/violencia">
+                      <p> #Violência </p>
+                    </Link>
+                    <Link href="/blog/machismo">
+                      <p> #Machismo </p>
+                    </Link>
+                    <Link href="/blog/revolucao">
+                      <p> #Revolução </p>
+                    </Link>
+                    <Link href="/blog/politicas_publicas">
+                      <p> #Políticas Públicas </p>
+                    </Link>
+                    <Link href="/blog/psicologia">
+                      <p> #Psicologia </p>
+                    </Link>
+                    <Link href="/blog/mulher">
+                      <p> #Mulher </p>
+                    </Link>
+                    <Link href="/blog/auto_estima">
+                      <p> #Auto-Estima </p>
+                    </Link>
+                  </TagsShow>)}
 
               </TagGroup>
 

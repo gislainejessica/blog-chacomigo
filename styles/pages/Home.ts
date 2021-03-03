@@ -58,7 +58,7 @@ export const MaxWidth = styled.div`
 `;
 
 
-export const Picker = styled.div`
+export const Picker = styled.button`
   display: none;
   flex-direction: row;
   background:  #d444;
@@ -84,6 +84,30 @@ export const Picker = styled.div`
     padding: 0.4rem;
     /* margin: .5rem; */
   }
+`;
+
+export const TagsShow = styled.div`
+  background-color: #f4e4f4;
+  // display: none;
+  position: fixed;
+  width: 40%;
+  border: 2px solid #eee;
+  /* height: 100%; */
+  left: 50%;
+  top: 8rem;
+  display: block;
+  z-index: 3;
+  flex: 1;
+  justify-content: flex-start;
+  padding: 1rem;   
+
+  p { 
+    color: #444;
+  }
+  @media(min-width: 1280px) {
+    display: none;
+  }
+
 `;
 
 export const CategoryPicker = styled.div`
