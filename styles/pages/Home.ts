@@ -70,7 +70,7 @@ export const Picker = styled.button`
   width: 100%;
   height: 1.7rem;
   border: 2px solid #d355 ;
-
+  text-transform: capitalize;
   margin-left: 1rem;
 
   @media(max-width: 1280px) {
@@ -80,8 +80,8 @@ export const Picker = styled.button`
     justify-content: center;
     flex: 1;
 
-    padding-bottom: 0;
-    padding: 0.4rem;
+      padding-bottom: 0;
+      padding: 0.4rem;
     /* margin: .5rem; */
   }
 `;
@@ -89,20 +89,24 @@ export const Picker = styled.button`
 export const TagsShow = styled.div`
   background-color: #f4e4f4;
   // display: none;
-  position: fixed;
+  position: absolute;
   width: 40%;
   border: 2px solid #eee;
   /* height: 100%; */
   left: 50%;
   top: 8rem;
   display: block;
-  z-index: 3;
+  z-index: 2;
   flex: 1;
   justify-content: flex-start;
   padding: 1rem;   
 
   p { 
     color: #444;
+    margin: .8rem 0;
+    padding: .2rem 1rem;
+    border: 2px solid #fff;
+    border-radius: 2rem;
   }
   @media(min-width: 1280px) {
     display: none;
