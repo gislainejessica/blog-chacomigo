@@ -46,7 +46,10 @@ export default function Home() {
         id: '1',
         author: "Gislaine Tiburcio",
         title: "O que o Feminismo afinal?",
-        content: "Conteudo inicial mostrada para chamar atenção para a pessoa Conteudo inicial mostrada para chamar atenção para a pessoa  No documento, ela criticava a Declaração da Revolução, pois era somente aplicada aos homens. Além disso, alertava para a autoridade masculina e a importância das mulheres e da igualdade de direitos...",
+        content: "Conteudo inicial mostrada para chamar atenção para a pessoa \
+        Conteudo inicial mostrada para chamar atenção para a pessoa  No documento, \
+        ela criticava a Declaração da Revolução, pois era somente aplicada aos homens.\
+        Além disso, alertava para a autoridade masculina e a importância das mulheres e da igualdade de direitos...",
         tags: [{
           content: "Feminismo",
           color: "#7d47d4"
@@ -67,14 +70,16 @@ export default function Home() {
         Às autoras foi colocado o desafio de reflectirem sobre o feminismo (ou os feminismos) tendo em conta que este não é um movimento uno\
          mas múltiplo na sua génese e nos seus objectivos.\
         Esta é a crítica que perpassa os quatro artigos: há outros feminismos além daquele que surgiu no mundo ocidental no século XVIII, \
-        que trilharam um outro caminho apesar de terem o mesmo fim – a promoção da igualdade de direitos entre homens e mulheres.O que é feminismo?, o 12.º número da colecção “Cadernos de Ciências Sociais” (direcção de Carlos Serra), \
+        que trilharam um outro caminho apesar de terem o mesmo fim – a promoção da igualdade de direitos entre homens e mulheres.O que é feminismo?,\
+        o 12.º número da colecção “Cadernos de Ciências Sociais” (direcção de Carlos Serra), \
         convida os/as leitores/as a partilharem “a construção teórica do feminismo” (p. 11) através da leitura dos textos de \
         Patrícia  Gomes (Guiné-Bissau), Debora Diniz (Brasil), Maria Helena Santos (Portugal) e Rosália Diogo (Brasil), \
         cada um dos quais abordando a problemática da igualdade de género a partir de diferentes realidades socioculturais e políticas. \
         Às autoras foi colocado o desafio de reflectirem sobre o feminismo (ou os feminismos) tendo em conta que este não é um movimento uno\
          mas múltiplo na sua génese e nos seus objectivos.\
         Esta é a crítica que perpassa os quatro artigos: há outros feminismos além daquele que surgiu no mundo ocidental no século XVIII, \
-        que trilharam um outro caminho apesar de terem o mesmo fim – a promoção da igualdade de direitos entre homens e mulheres.O que é feminismo?, o 12.º número da colecção “Cadernos de Ciências Sociais” (direcção de Carlos Serra), \
+        que trilharam um outro caminho apesar de terem o mesmo fim – a promoção da igualdade de direitos entre homens e mulheres.O que é feminismo?, \
+        o 12.º número da colecção “Cadernos de Ciências Sociais” (direcção de Carlos Serra), \
         convida os/as leitores/as a partilharem “a construção teórica do feminismo” (p. 11) através da leitura dos textos de \
         Patrícia  Gomes (Guiné-Bissau), Debora Diniz (Brasil), Maria Helena Santos (Portugal) e Rosália Diogo (Brasil), \
         cada um dos quais abordando a problemática da igualdade de género a partir de diferentes realidades socioculturais e políticas. \
