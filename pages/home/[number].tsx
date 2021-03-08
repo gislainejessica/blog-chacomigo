@@ -1,6 +1,7 @@
 import Head from 'next/head'
-import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
-import { FcLike, FcBookmark, FcShare, FcCollaboration, FcHighPriority } from 'react-icons/fc';
+import { useRouter } from 'next/router'
+
+import { FcLike, FcBookmark, FcShare } from 'react-icons/fc';
 
 import Nav from '../../components/Header'
 import Footer from '../../components/Footer'
@@ -22,7 +23,7 @@ import {
   Comment
 } from '../../styles/pages/Principal'
 
-import { useRouter } from 'next/router'
+import Texto from '../../post/feminismo.mdx'
 
 export default function Home() {
 
@@ -150,31 +151,22 @@ export default function Home() {
 
       <Container>
         <Comment>
-          {/* <p> Curtir </p> */}
+
           <div>
             <FcLike size={24} />
             <span> 3 </span>
           </div>
-          {/* <p> Comentar </p> */}
-          {/* <div>
-            <FcCollaboration size={24} />
-            <span> 1 </span>
-          </div> */}
-          {/* <p> Compartilhar </p> */}
+
           <div>
             <FcShare size={24} />
             <span> 0 </span>
           </div>
-          {/* <p> Arquivar </p> */}
+
           <div>
             <FcBookmark size={24} />
             <span> 13 </span>
           </div>
-          {/* <p> Denunciar </p> */}
-          {/* <div>
-            <FcHighPriority size={24} />
-            <span> 0 </span>
-          </div> */}
+
         </Comment>
 
         <MaxWidth>
@@ -205,7 +197,8 @@ export default function Home() {
               <TimeText> 2min de leitura </TimeText>
 
               <Text>
-                {myCard.content}
+                {/* {myCard.content} */}
+                <Texto />
               </Text>
 
             </PostContent>

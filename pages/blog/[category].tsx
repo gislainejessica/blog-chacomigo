@@ -35,7 +35,7 @@ export default function Blog() {
       {
         id: '0',
         title: "Existe vida após a violência",
-        content: "Conteudo inicial mostrada para chamar atenção para a pessoa Conteudo inicial mostrada para chamar atenção para a pessoa...",
+        content: "0 - Conteudo inicial mostrada para chamar atenção para a pessoa Conteudo inicial mostrada para chamar atenção para a pessoa...",
         tags: [{
           content: "Machismo",
           color: "#429911"
@@ -48,7 +48,7 @@ export default function Blog() {
       {
         id: '1',
         title: "O que o Feminismo afinal?",
-        content: "O que é feminismo?, o 12.º número da colecção “Cadernos de Ciências Sociais” (direcção de Carlos Serra), \
+        content: "1 - O que é feminismo?, o 12.º número da colecção “Cadernos de Ciências Sociais” (direcção de Carlos Serra), \
         convida os/as leitores/as a partilharem ...",
         tags: [{
           content: "Feminismo",
@@ -62,7 +62,7 @@ export default function Blog() {
       {
         id: '2',
         title: "Como saber que o limite já passou?",
-        content: "Conteudo inicial mostrada para chamar atenção para a pessoa Conteudo inicial mostrada para chamar atenção para a pessoa...",
+        content: "2 - Conteudo inicial mostrada para chamar atenção para a pessoa Conteudo inicial mostrada para chamar atenção para a pessoa...",
         tags: [{
           content: "Power",
           color: "#ff5474"
@@ -75,7 +75,7 @@ export default function Blog() {
       {
         id: '3',
         title: "Nada é para sempre, bom quanto dura",
-        content: "Conteudo inicial mostrada para chamar atenção para a pessoa Conteudo inicial mostrada para chamar atenção para a pessoa...",
+        content: "3 - Conteudo inicial mostrada para chamar atenção para a pessoa Conteudo inicial mostrada para chamar atenção para a pessoa...",
         tags: [
           {
             content: "Revolução",
@@ -154,7 +154,6 @@ export default function Blog() {
                   </TagsShow>)}
 
               </TagGroup>
-
 
 
               {data.cards.map(card => (
